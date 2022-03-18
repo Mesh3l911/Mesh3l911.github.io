@@ -52,6 +52,12 @@ JWT لهذا الـ Verify  الله لايهينك سو Backend Server بإخت
 
 http://localhost:3000/.well-known/jwks.json
 
+ Backend Server مثل مانشوف فالصورة الـ 
+ 
+من JWKراح ياخذ الـ Verify عشان يسوي 
+
+http://localhost:3000/.well-known/jwks.json
+
 <br>
 Decompile the (.apk) file using ( jadx-GUI )
 <br>
