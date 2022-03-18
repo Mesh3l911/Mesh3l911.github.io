@@ -26,10 +26,10 @@ tags: [JWKS, JWT]
 `JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.<br>
 
 public keyبكل إختصار هو قيمة الـ
-
-JSON Object وبعض المعلومات عنه على شكل
-
+JavaScript Object Notation (JSON) وبعض المعلومات عنه على شكل
 وراح نشوف قدام بإذن الله كيف ممكن نسويه.
+
+![](../../posts_pics/JWK.png)
 
 `JSON Web Key Set (JWKS)` is a set of keys containing the public keys used to verify any JSON Web Token (JWT) issued by the authorization server and signed using the RS256 signing algorithm. According to Auth0.<br>
 
