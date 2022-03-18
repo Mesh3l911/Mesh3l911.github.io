@@ -46,6 +46,10 @@ JWT لهذا الـ Verify  الله لايهينك سو Backend Server بإخت
 اللي بهالرابط JWKS الموجود بالـ JWK عن طريق الـ
 ![](../../posts_pics/jku.png)
 
+عشان يسوي Backend Server مثل مانشوف فالصورة الـ 
+من JWKراح ياخذ الـ Verify
+http://localhost:3000/.well-known/jwks.json
+
 <br>
 Decompile the (.apk) file using ( jadx-GUI )
 <br>
