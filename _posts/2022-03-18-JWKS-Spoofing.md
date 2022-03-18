@@ -23,9 +23,9 @@ tags: [JWKS, JWT]
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">What's JWKS?:</p></b></body></html>
 
-`JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.<br>
+`JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.<br><br>
 
-public keyبكل إختصار هو قيمة الـ
+ public keyبكل إختصار هو قيمة الـ
 JavaScript Object Notation (JSON) وبعض المعلومات عنه على شكل
 
 وراح نشوف قدام بإذن الله كيف ممكن نسويه.
