@@ -1,7 +1,7 @@
 ---
 title: JSON Web Key Sets Spoofing (JWKS Spoofing)
 author: Mesh3l_911
-date: 2022-03-18 18:32:00 -0500
+date: 2022-03-18
 categories: [Blogging, Tutorial]
 tags: [JWKS, JWT]
 ---
