@@ -42,6 +42,7 @@ Array أو أكثر محطوطين بـ JSON Web Key (JWK) عبارة عن JWKS 
 used to sign verify JWT.
 
 JWT لهذا الـ Verify  الله لايهينك سو Backend Server بإختصار سلمكم الله هذا يقول يا 
+
 اللي بهالرابط JWKS الموجود بالـ JWK عن طريق الـ
 ![](../../posts_pics/jku.png)
 
