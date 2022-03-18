@@ -1,5 +1,5 @@
 ---
-title: JSON Web Key Sets Spoofing(JWKS Spoofing)
+title: JSON Web Key Sets Spoofing (JWKS Spoofing)
 author: Mesh3l_911
 date: 2022-03-13 18:32:00 -0500
 categories: [Blogging, Tutorial]
@@ -16,19 +16,19 @@ tags: [JWKS, JWT]
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Agenda:</p></b></body></html>
 
-<ul><li><b>What's JWKS?</b></li></ul>
+<ul><li><b>What's JWK & JWKS?</b></li></ul>
 <ul><li><b>jku Header</b></li></ul>
-<ul><li><b>JWKS Spoofing Attack(Blackbox Approach)</b></li></ul>
-<ul><li><b>Challenge(Whitebox Approach)</b></li></ul>
+<ul><li><b>JWKS Spoofing Attack (Blackbox Approach)</b></li></ul>
+<ul><li><b>Challenge (Whitebox Approach)</b></li></ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">What's JWKS?:</p></b></body></html>
 
-<br>طيب قبل نتكلم عن طرق التخطي خلونا ناخذ فكرة بسيطة وسطحية عن إيش هو من الأساس ؟
-<br>```SSL Pinning:``` <br>
- بطرق مختلفة مثل(Pinned == Hard Coded) بداخل التطبيق تكون trustful certificates بكل بساطة خلونا نقول فيه  
-- Certificate
-- Public Key
-- Hash
+`JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.
+بكل إختصار هو قيمة الـ public key وبعض المعلومات عنه على شكل JavaScript Object Notation (JSON) وراح نشوف قدام بإذن الله كيف ممكن نسويه.
+
+`JSON Web Key Set (JWKS)` is a set of keys containing the public keys used to verify any JSON Web Token (JWT) issued by the authorization server and signed using the RS256 signing algorithm. According to Auth0.
+
+الـ JWKS هو فقط مجموعة من الـ JSON Web Keys (JWK) محطوطين بـ Array. 
 
 Conection Establishment وفي خلال عملية الـ
  <br>
