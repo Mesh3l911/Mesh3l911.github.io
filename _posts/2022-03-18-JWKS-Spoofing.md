@@ -46,51 +46,23 @@ JWT لهذا الـ Verify  الله لايهينك سو Backend Server بإخت
 اللي بهالرابط JWKS الموجود بالـ JWK عن طريق الـ
 ![](../../posts_pics/jku.png)
 
-عشان يسوي Backend Server مثل مانشوف فالصورة الـ
-
-من JWKراح ياخذ الـ Verify
-
-http://localhost:3000/.well-known/jwks.json
-
  Backend Server مثل مانشوف فالصورة الـ 
  
 من JWKراح ياخذ الـ Verify عشان يسوي 
 
 http://localhost:3000/.well-known/jwks.json
 
-<br>
-Decompile the (.apk) file using ( jadx-GUI )
-<br>
- على خفيف Code Review ونبدأ شغل 
- <br>
-   هنا قطعت الشك باليقين وعرفت إيش البارامترز بالضبط اللي قاعد يصير لها 
-   <br>
-   Encryption
-  <br>
-     ![](../../posts_pics/12.png)
-<br>
-<br>
-- <b>Weak Encryption Algorithm:</b>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">JWKS Spoofing Attack (Blackbox Approach):</p></b></body></html>
 
-Encryptionهنا الفنكشن المسؤولة عن الـ 
-<br>
-Symmetric Encryption (AES electronic codebook mode encryption)
-  <br>
-     ![](../../posts_pics/13.png)
-<br>
-<br>
-Keyعلى طول راح بالي للـ 
-<br>
-وفعلا ببحث سريع لقيته 
-  <br>
-     ![](../../posts_pics/13_1.png)
-<br>
-<br>
+.جاء وقت إننا نعرف كيف ممكن نستغل هالشي JWK, JWKS, jku Header طيب بعد ماعرفنا إيش  الـ 
+  
+  الغلط الكبير اللي ممكن يوقع فيه المبرمج في مثل هالحالة 
+ User Input عن طريق الـ jku هو إنه ياخذ قيمة الـ   
 
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Password Generator(Crunch + Cusom Java script):</p></b></body></html>
+فهنا مالنا غير التجربة لأننا ماندري المبرمج كيف Blackbox approach طبعا بما أننا قررنا نبدأ 
+jku قاعد ياخذ قيمة الـ 
 
- وبكذا فهمنا كل اللي صاير , الحين وقت نبدأ نسوي الشي اللي كنا مخططين له من البداية وهو باسووردز ليست من 0000 إلى 9999 
- <br>
+<br>
   Encrypted لكن تكون 
 <br>
 بإستخدام نفس الفنكشن المستخدمة بالتطبيق
