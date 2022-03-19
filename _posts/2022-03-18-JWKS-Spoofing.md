@@ -28,13 +28,34 @@ tags: [JWKS, JWT]
 JSON Object وبعض المعلومات عنه على شكل Public Keyبكل إختصار هو قيمة الـ 
 وراح نشوف قدام بإذن الله كيف ممكن نسويه.
 
-![](../../posts_pics/JWK.png)
+
+```python
+{
+    "kty": "RSA",
+    "use": "sig",
+    "n": "ANWDaBd-KOJMNL271ZSmIDnpdpsuOVAMESW12HVTiObbRfEF8sFL355nWAzhNsYH4Goh-d1_q07ih86-pjS7fmxxAtGbkk89cMbJR0-fxsHUEKVjC6aMIyOFR16nJbD-tO9_LWnpaZQsSA1khrAvVZxHiv_J6HYI8em15E9vuO4hyzy6-CmkkF3k6kDlvklMlVcVtQRGS6c61jeiKOy2M6DRcOYj42eXjVKoKeqB4NLS0vyyS2VkrlO3qk0D0BdqfW6HuLK_H4hF_ajIJWZzhfibGfVIrGMiVm3mqPphYAmfhO1wKLGIYwKqhbluMHd8-sMbk1rCwnmvhdYlz87t78WlSxIRRmHPegZa4V4H7yI9yQoIykcb_GL9NqQlYDcFtXcC1QZ1ny9LWskCNOursjIXqWGB-QSE_yqgWWOae2Kc8gte4pylEnu7Nc840l__0tt0bxrbiRApFcsYhPz5Z6xJAErk9Yil2Y62eciWSuivvEs00nHDVzofX2D1NwWr-DM_WaifKDEgsu_iPst6D-QHHlAkpqwCOchC8sGeI71YJryCtK6bZ0kko-iHoX3INxt2Kkf3uljuPZwopXKymGcKn3P0isnTwmVbkCo788DVyBOLKz5J2osec0ezbxbVO6zHd6q-ejDbz5DKAVUMh9Q1l_5Yme3nPym5bzvCCeGr",
+    "e": "AQAB"
+}
+
+```
 
 `JSON Web Key Set (JWKS)` is a set of keys containing the public keys used to verify any JSON Web Token (JWT) issued by the authorization server and signed using the RS256 signing algorithm. According to Auth0.<br>
 
 Array أو أكثر محطوطين بـ JSON Web Key (JWK) عبارة عن JWKS الـ 
 
-![](../../posts_pics/JWKS.png)
+
+```python
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "use": "sig",
+            "n": "ANWBd-KOJMNL271ZAMESW12HVTiObbRfEF8sFL355nWAzhNsYH4Goh-d1_q07ih86-pjS7fmxxAtGbkk89cMbJR0-fxsHUEKVjC6aMIyOFR16nJbD-tO9_LWnpaZQsSA1khr9vuO4hyzy6-CmkkF3k6kDlvklMlVcVtQRGS6c61jeiKOy2M6DRcOYj42eXjVKoKeqB4NLS0vyyS2VkrlO3qk0D0BdqfW6HuLK_H4hF_ajIJWZzhfPphYAmfhO1wKLGIYwKqhbluMHd8-sMbk1rCwnmvhdYlz87t78WlSxIRRmHPegZa4V4H7yI9DcFtXcC1QZ1ny9LWskCNOursjIXqWGB-QSE_yqgWWOae2Kc8gte4pylEnu7Nc840l__0tt0bxrbiRApFcsYhPz5Z6xJAErk9Yil2Y62eciWSuivvEs00nHDVzof-DM_WaifKDEgsu_iPst6D-QHHlAkpqwCOchC8sGeI71YJryCtK6bZ0kko-iHoX3INxt2Kkf3uljuPZwopXKymGcKnVyBOLKz5J2osec0ezbxbVO6zHd6q-ejDbz5DKAVUMh9Q1l_5Yme3vCCeGr",
+            "e": "AQAB"
+        }
+    ]
+}
+```
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">jku Header:</p></b></body></html>
 
