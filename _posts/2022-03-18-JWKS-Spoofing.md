@@ -26,9 +26,7 @@ tags: [JWKS, JWT]
 `JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.<br>
 
 وبعض المعلومات عنه على شكل Public Key بكل إختصار هو قيمة الـ
-
 JSON Object
-
 وراح نشوف قدام بإذن الله كيف ممكن نسويه.
 
 
