@@ -206,14 +206,36 @@ app.post('/flag', (req, res) => {
 
 app.listen(80, () => console.log('Listening on port 80'));
 
-
 ```
+
+jku هنا لو نشوف السطر رقم 20 راح تلاحظون إني جالس أخذ قيمة الـ 
+
+Payload اللي راح تكون موجودة فالـ jku وهو قيمة الـ User Controlled Input عن طريق 
+
+```jwksUri: req.jku```
+
+وليست بالهيدر ؟ Payload موجودة بالـ jku طيب ليش فالتحدي قيمة 
+
+Code Review أنا سويت كذا عشان أجبركم تسوون 
+
+jku وبكذا خلاص كل اللي علينا نسوي الإستغلال اللي شرحناه فوق بس الفرق الوحيد إن قيمة 
+
+Header وليست فالـ Payload راح تكون فالـ
+
+
+وسلامتكم.
+
+دعواتكم لي ولوالدي ومن أحب 
+
+Happy Hacking ^_^
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">References:</p></b></body></html>
 
--   https://frida.re/docs/home/
--   https://frida.re/docs/frida-ps/
--   https://github.com/sensepost/objection
--   https://github.com/tsug0d/AndroidMobilePentest101
--   https://blog.securityevaluators.com/bypassing-okhttp3-certificate-pinning-c68a872ca9c8
--   https://github.com/BullyBoo/Encryption
+-   https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-key-sets
+-   https://assets.ctfassets.net/2ntc334xpx65/o5J4X472PQUI4ai6cAcqg/13a2611de03b2c8edbd09c3ca14ae86b/jwt-handbook-v0_14_1.pdf
+-   https://www.npmjs.com/package/jsonwebtoken
+-   https://www.npmjs.com/package/jwks-rsa
+-   https://www.npmjs.com/package/express-jwt
+-   https://www.npmjs.com/package/rsa-pem-to-jwk
+-   https://russelldavies.github.io/jwk-creator/
+-   https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens
