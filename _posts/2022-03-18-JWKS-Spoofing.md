@@ -66,7 +66,7 @@ http://localhost:3000/.well-known/jwks.json
 jkuلأننا ماندري المبرمج كيف قاعد ياخذ قيمة الـ 
 
 ### Exploitation:
-- بالفورمات المناسب Private/Public keys أول خطوة نروح للسيرفر الخاص فينا ونسوي 
+-  بالفورمات المناسب Private/Public keys أول خطوة نروح للسيرفر الخاص فينا ونسوي 
 
 ```ssh-keygen -t rsa -b 4096 -m PEM -f id_rsa```
 
@@ -130,7 +130,7 @@ http://localhost:3000/.well-known/jwks.json
  
  https://russelldavies.github.io/jwk-creator/ 
 
-- JWT الخطوة الثالثة فالاتاك نسوي الـ 
+-  JWT الخطوة الثالثة فالاتاك نسوي الـ 
 
 ```python
 const fs = require('fs');
