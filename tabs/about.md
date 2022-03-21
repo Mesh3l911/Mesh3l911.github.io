@@ -11,8 +11,6 @@
 
 <ul><li><b>Ministry of Communications and Information Technology</b></li> <br>
 Cyber Security Analyst since (Feb,2022)(Full Time) </ul>
-<ul><li><b>Saudi Data & AI Authority (SDAIA)</b></li> <br>
-Cyber Security Risk Officer for (Two Weeks)(Full Time) </ul>
 <ul><li><b>Synack Red Team member</b></li> <br>
 Penetration Tester at Synack since (Jul,2021)(Part Time) </ul>
 <ul><li><b>Saudi Federation for Cybersecurity, Programming and Drones</b></li> <br>
