@@ -60,14 +60,13 @@ A tool to automate the process of testing web applications against different SQL
 testing ( SAST/DAST )</b></li></ul>
 <ul><li><b>Experienced with OWASP Web/Api standards and processes
 for conducting penetration testing</b></li></ul>
-<ul><li><b>PYTHON coder and familiar with C,JAVA ,PHP and BASH basics</b></li></ul>
+<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
 <ul><li><b>Experienced with the Networks/Networks penetration
 testing fundamentals</b></li></ul>
 <ul><li><b>Fundamentals of :</b></li> <br>
 -Linux/Windows Privileges escalation <br>
 -Regular Expressions <br>
--IOS/Android SSL Pinning and Root
-detection bypasses <br>
+-Mobile Apps static/dynamic analysis fundamentals <br>
 -Windows Buffer Overflows</ul>
 
 
@@ -125,12 +124,16 @@ Among ( more than 35 universities , 2000 students and 480 teams )</ul>
 my team ( BloodHunters )</b></li> <br>
 2nd version</ul>
 <ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF
-in Finals with my team ( k$a )</b></li> <br>
+in Finals with my team (k$a)</b></li> <br>
 Got qualified for the Arab and Africa Regional CTF ( among more than 20
 countries )</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
 
+<ul><li><b>JSON Web Key Sets Spoofing (JWKS Spoofing):</b></li> <br>
+ In this Article I described [ What's JWK & JWKS?, jku Header, JWKS Spoofing Attack (Blackbox Approach), Challenge (Whitebox Approach). <br>
+<a href="https://mesh3l911.github.io/posts/JWKS-Spoofing/">JSON Web Key Sets Spoofing (JWKS Spoofing)</a></ul>
+    
  <ul><li><b>Out Of Band technique - DNS Exfiltration:</b></li> <br>
  In this Article I illustrated [ Blind Command Injection ( White Box ), Blind Command Injection ( Black Box ), Out Of Band technique, DNS Exfiltration, Burb Collaborator, AWS ( EC2 , inbound rules ) +Godaddy, Tcpdump, Responder.py and Bind9 DNS Server ]  <br>
 <a href="https://mesh3l-911.medium.com/out-of-band-technique-dns-exfiltration-b0324c8ef281">Out Of Band technique - DNS Exfiltration</a></ul>
