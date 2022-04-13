@@ -86,19 +86,26 @@ Webmin 1.973 - Exploiting a Reflected Cross-Site Scripting (XSS) attack to get a
 <ul><li><b>CVE-2021-31762:</b></li> <br>
 Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a privileged user through the Webmin's add users feature then getting a reverse shell through the Webmin's running process feature <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31762/">CVE-2021-31762</a></ul>
+
 <ul><li><b>CVE-2021-32156:</b></li> <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32156">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32157:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32157:</b></li> <br>    
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32157">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32158:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32158:</b></li><br>     
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32158">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32159:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32159:</b></li> <br>      
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32159">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32160:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32160:</b></li> <br>      
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32160">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32161:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32161:</b></li> <br>     
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32161">CVE-2021-44659</a></ul>
-    <ul><li><b>CVE-2021-32162:</b></li> <br>
+    
+<ul><li><b>CVE-2021-32162:</b></li> <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-44659</a></ul>
     
     
@@ -156,12 +163,12 @@ countries )</ul>
  In this Article my team and I approached the discovering/exploiting for the SQLi in the core of Wordpress (CVE-2022-21661) Statically/Dynamically using VS Code. We also wrote a custome plugin to do the 2nd part
 
 <br>
-<a href="https://confidentialteam.github.io/posts/cve-2022-21661/">JSON Web Key Sets Spoofing (JWKS Spoofing)</a></ul>
+<a href="https://confidentialteam.github.io/posts/cve-2022-21661/">Detailed Static/Dynamic analysis for(CVE-2022-21661)</a></ul>
  
 <ul><li><b>Infiltrating CS Beacon throughout different mediums [SMTP Server’s Banner, HTTP Response Header and DNS TxT Record]:</b></li> <br>
  In this Article my team and I took a step towards an Infiltration technique that would make it a bit more complex to be detected.
 <br>
-<a href="https://confidentialteam.github.io/posts/infiltration/">JSON Web Key Sets Spoofing (JWKS Spoofing)</a></ul>
+<a href="https://confidentialteam.github.io/posts/infiltration/">Infiltrating CS Beacon throughout different mediums</a></ul>
   
  <ul><li><b>Out Of Band technique - DNS Exfiltration:</b></li> <br>
  In this Article I illustrated [ Blind Command Injection ( White Box ), Blind Command Injection ( Black Box ), Out Of Band technique, DNS Exfiltration, Burb Collaborator, AWS ( EC2 , inbound rules ) +Godaddy, Tcpdump, Responder.py and Bind9 DNS Server ]  <br>
