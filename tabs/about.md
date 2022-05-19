@@ -86,25 +86,25 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31762/">CVE-2021-31762</a></ul>
 
 <ul><li><b>CVE-2021-32156:</b></li> <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32156">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32156">CVE-2021-32156</a></ul>
     
 <ul><li><b>CVE-2021-32157:</b></li> <br>    
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32157">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32157">CVE-2021-32157</a></ul>
     
 <ul><li><b>CVE-2021-32158:</b></li><br>     
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32158">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32158">CVE-2021-32158</a></ul>
     
 <ul><li><b>CVE-2021-32159:</b></li> <br>      
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32159">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32159">CVE-2021-32159</a></ul>
     
 <ul><li><b>CVE-2021-32160:</b></li> <br>      
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32160">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32160">CVE-2021-32160</a></ul>
     
 <ul><li><b>CVE-2021-32161:</b></li> <br>     
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32161">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32161">CVE-2021-32161</a></ul>
     
 <ul><li><b>CVE-2021-32162:</b></li> <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-44659</a></ul>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
     
     
     
