@@ -19,7 +19,7 @@ Penetration Tester since (Sep,2020)(Part Time)<br></ul>
  
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
     
-<ul><li><b>Offensive Security Web Expert( OSWE )</b></li> <br>
+<ul><li><b>Offensive Security Web Expert ( OSWE )</b></li> <br>
 Offensive Security</ul>
     
 <ul><li><b>Web Application Penetration Testing eXtreme( eWPTXv2 )</b></li> <br>
