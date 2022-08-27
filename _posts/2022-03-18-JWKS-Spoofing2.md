@@ -43,10 +43,10 @@ tags: [JWKS, JWT]
  لآخر الثغرات في دروبال وهي POC في البداية كنت أحاول أكتب
  
  
- ```
+ `
  Arbitrary PHP code execution (CVE-2022-25277)
  # Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014
-```
+`
 
    بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
    
