@@ -25,12 +25,14 @@ tags: [JWKS, JWT]
   <li>Escalating Our Privilage to Administrator Using XMLHttpRequest (XHR)</li>
  </ul>
 </li></ul>
-
+<br><br>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Authenticated Stored XSS Affects All Drupal Core Versions:</p></b></body></html>
 
   الله يمسيكم/يصبحكم بالخير.
   
+
+:الهدف بالنسبة لي من الموضوع نقطتين أساسية
  
  <ul><li><b> راح تعطيك فهم كافي للتطبيق بيساعدك في إكتشاف ثغرات أخرى POCs for CVEs كتابة </b></li></ul>
  <ul><li><b>
@@ -41,24 +43,32 @@ tags: [JWKS, JWT]
  لآخر الثغرات في دروبال وهي POC في البداية كنت أحاول أكتب
  
  
- 
  ```
  Arbitrary PHP code execution (CVE-2022-25277)
  # Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014
 ```
 
+   بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
+ File Upload Process
 
- File Upload Process بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
 وهي سلمكم الله (بإختصار) قبل رفع أي ملف يتم مراجعة الإمتداد, هل هو موجود بالبلاك ليست ولالا؟
- ويصير إسم الملف بهالطريقة (.txt ) إمتداد (Append) إذا نعم يتم إضافة 
+إذا نعم يصير 
+Append a (.txt) extension
+وتكون النتيجة
 Mesh3l.php.txt
 
-:مسموح (.svg) ومنها لاحظت بأن الإمتداد
+ومنها لاحظت بأن الإمتداد
+(.svg)
+مسموح
 صورة
 
-وأشوف يصير أي نوع من الـ (.svg) على طول بدون ماأضيع وقت فكرت أرفع ملف 
-لمحتوى الملف ولالا ؟ Filtration/Sanitization 
+على طول بدون ماأضيع وقت فكرت أرفع ملف 
+(.svg) 
+وأشوف يصير أي نوع من الـ 
+Filtration/Sanitization 
+لمحتوى الملف ولالا ؟
 وللأسف الإجابة كانت لا وكانت موجودة بكل إصدارات دروبال 
+
 
 
 
