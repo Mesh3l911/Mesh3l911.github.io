@@ -52,9 +52,8 @@ tags: [JWKS, JWT]
    
  File Upload Functionality Process
 
-وهي سلمكم الله (بإختصار) قبل رفع أي ملف يتم مراجعة الإمتداد, هل هو موجود بالبلاك ليست ولالا؟
+وهي سلمكم الله (بإختصار) قبل رفع أي ملف يتم مراجعة الإمتداد, هل هو موجود بالبلاك ليست ولالا؟ إذا كان موجود وإمتداد تيكست أيضا موجود
 
-إذا نعم
 
 Will append a (.txt) extension
 
@@ -62,12 +61,13 @@ Will append a (.txt) extension
 
 Mesh3l.php_.txt
 
+غير كذا راح يمنعنا من إضافة الإمتداد
 
-ومنها لاحظت بأن الإمتداد
+لكن لاحظت بأن الإمتداد
 
 (.svg)
 
-ماكان من ضمنها.
+ماكان من البلاك ليست.
 `lib/Drupal/Core/File/FileSystemInterface.php`
 
 ![](../../posts_pics/INSECURE_EXTENSION_REGEX.png)
