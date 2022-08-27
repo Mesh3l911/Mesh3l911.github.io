@@ -19,7 +19,7 @@ tags: [JWKS, JWT]
 <ul><li><b>Authenticated Stored XSS Affects All Drupal Core Versions</b></li></ul>
 <ul><li><b>Exploit Development:</b>
  <ul class="square">
-  <li>Triggering the vulnerability (Simple POC)</li>
+  <li>Triggering the vulnerability (Basic POC)</li>
   <li>Uploading SVG File Using Python</li>
   <li>XSS to Bypaass the Anti-CSRF Token Using XMLHttpRequest (XHR)</li>
   <li>Escalating Our Privilage to Administrator Using XMLHttpRequest (XHR)</li>
