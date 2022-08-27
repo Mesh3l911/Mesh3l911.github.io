@@ -67,14 +67,17 @@ Mesh3l.php_.txt
 
 (.svg)
 
-ماكان من البلاك ليست.
+ماكان من البلاك ليست
+
 `lib/Drupal/Core/File/FileSystemInterface.php`
 
 ![](../../posts_pics/INSECURE_EXTENSION_REGEX.png)
 
 <br>
 `modules/system/src/EventSubscriber/SecurityFileUploadEventSubscriber.php`
+
 ![](../../posts_pics/Appending.png)
+
 على طول بدون ماأضيع وقت فكرت أرفع ملف
 
 (.svg) 
