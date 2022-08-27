@@ -338,9 +338,11 @@ XHR.send();
 
 وهذا مقطع يوضح كل التفاصيل اللي فوق بشكل عملي:
 
- <iframe width="420" height="315"
+ <iframe width="700" height="600"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe> 
+
+<br><br>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">References</p></b></body></html>
 
