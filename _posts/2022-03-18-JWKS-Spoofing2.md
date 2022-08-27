@@ -238,7 +238,7 @@ XSS
 
 نرجع لموضوعنا, أنا هنا إستخدمت 
 
-```python
+```javascript
 //Extracting the Anti-CSRF Token
 var XHR = new XMLHttpRequest();
 XHR.onreadystatechange = function(){
