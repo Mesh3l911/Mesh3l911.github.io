@@ -16,49 +16,54 @@ tags: [JWKS, JWT]
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Agenda:</p></b></body></html>
 
-<ul><li><b>What's JWK & JWKS?</b></li></ul>
-<ul><li><b>jku Header</b></li></ul>
-<ul><li><b>JWKS Spoofing Attack (Blackbox Approach)</b></li></ul>
-<ul><li><b>Challenge (Whitebox Approach)</b></li></ul>
-
-> <html><body><b><p style="color:#A52A2A;font-size:25px">What's JWKS?:</p></b></body></html>
-
-`JSON Web Key`: is A JSON object that represents a cryptographic key. The members of the object represent properties of the key, including its value. According to Auth0.<br>
-
-وبعض المعلومات عنه على شكل Public Key بكل إختصار هو قيمة الـ
-
-JSON Object
-
-وراح نشوف قدام بإذن الله كيف ممكن نسويه.
+<ul><li><b>Authenticated Stored XSS Affects All Drupal Core Versions</b></li></ul>
+<ul><li><b>Exploit Development:</b>
+ <ul class="square">
+  <li>Triggering the vulnerability (Simple POC)</li>
+  <li>Uploading SVG File Using Python</li>
+  <li>XSS to Bypaass the Anti-CSRF Token Using XMLHttpRequest (XHR)</li>
+  <li>Escalating Our Privilage to Administrator Using XMLHttpRequest (XHR)</li>
+ </ul>
+</li></ul>
 
 
-```python
-{
-    "kty": "RSA",
-    "use": "sig",
-    "n": "ANWDaBd-KOJMNL271ZSmIDnpdpsuOVAMESW12HVTiObbRfEF8sFL355nWAzhNsYH4Goh-d1_q07ih86-pjS7fmxxAtGbkk89cMbJR0-fxsHUEKVjC6aMIyOFR16nJbD-tO9_LWnpaZQsSA1khrAvVZxHiv_J6HYI8em15E9vuO4hyzy6-CmkkF3k6kDlvklMlVcVtQRGS6c61jeiKOy2M6DRcOYj42eXjVKoKeqB4NLS0vyyS2VkrlO3qk0D0BdqfW6HuLK_H4hF_ajIJWZzhfibGfVIrGMiVm3mqPphYAmfhO1wKLGIYwKqhbluMHd8-sMbk1rCwnmvhdYlz87t78WlSxIRRmHPegZa4V4H7yI9yQoIykcb_GL9NqQlYDcFtXcC1QZ1ny9LWskCNOursjIXqWGB-QSE_yqgWWOae2Kc8gte4pylEnu7Nc840l__0tt0bxrbiRApFcsYhPz5Z6xJAErk9Yil2Y62eciWSuivvEs00nHDVzofX2D1NwWr-DM_WaifKDEgsu_iPst6D-QHHlAkpqwCOchC8sGeI71YJryCtK6bZ0kko-iHoX3INxt2Kkf3uljuPZwopXKymGcKn3P0isnTwmVbkCo788DVyBOLKz5J2osec0ezbxbVO6zHd6q-ejDbz5DKAVUMh9Q1l_5Yme3nPym5bzvCCeGr",
-    "e": "AQAB"
-}
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Authenticated Stored XSS Affects All Drupal Core Versions:</p></b></body></html>
 
+  الله يمسيكم/يصبحكم بالخير.
+بشكل كبير Source Code Auditing الصراحة الموضوع خفيف وماكان فيه 
+:لكن بإذن الله نعوضكم بالجايات, والهدف بالنسبة لي من الموضوع كان نقطتين أساسية
+ 
+ <ul><li><b> راح تعطيك فهم كافي للتطبيق بيساعدك في إكتشاف ثغرات أخرى POCs for CVEs كتابة </b></li></ul>
+ <ul><li><b>
+ Chaining Mindset التفكير دائما بأقصوى خطورة ممكنة للثغرة المكتشفة قبل كتابة التقرير 
+   
+ </b></li></ul>
+ 
+ لآخر الثغرات في دروبال وهي POC في البداية كنت أحاول أكتب
+ 
+ 
+ 
+ ```
+ Arbitrary PHP code execution (CVE-2022-25277)
+ # Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014
+ 
 ```
 
-`JSON Web Key Set (JWKS)` is a set of keys containing the public keys used to verify any JSON Web Token (JWT) issued by the authorization server and signed using the RS256 signing algorithm. According to Auth0.<br>
-
-Array أو أكثر محطوطين بـ JSON Web Key (JWK) عبارة عن JWKS الـ 
 
 
-```python
-{
-    "keys": [
-        {
-            "kty": "RSA",
-            "use": "sig",
-            "n": "ANWBd-KOJMNL271ZAMESW12HVTiObbRfEF8sFL355nWAzhNsYH4Goh-d1_q07ih86-pjS7fmxxAtGbkk89cMbJR0-fxsHUEKVjC6aMIyOFR16nJbD-tO9_LWnpaZQsSA1khr9vuO4hyzy6-CmkkF3k6kDlvklMlVcVtQRGS6c61jeiKOy2M6DRcOYj42eXjVKoKeqB4NLS0vyyS2VkrlO3qk0D0BdqfW6HuLK_H4hF_ajIJWZzhfPphYAmfhO1wKLGIYwKqhbluMHd8-sMbk1rCwnmvhdYlz87t78WlSxIRRmHPegZa4V4H7yI9DcFtXcC1QZ1ny9LWskCNOursjIXqWGB-QSE_yqgWWOae2Kc8gte4pylEnu7Nc840l__0tt0bxrbiRApFcsYhPz5Z6xJAErk9Yil2Y62eciWSuivvEs00nHDVzof-DM_WaifKDEgsu_iPst6D-QHHlAkpqwCOchC8sGeI71YJryCtK6bZ0kko-iHoX3INxt2Kkf3uljuPZwopXKymGcKnVyBOLKz5J2osec0ezbxbVO6zHd6q-ejDbz5DKAVUMh9Q1l_5Yme3vCCeGr",
-            "e": "AQAB"
-        }
-    ]
-}
-```
+
+ File Upload Process بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
+وهي سلمكم الله (بإختصار) قبل رفع أي ملف يتم مراجعة الإمتداد, هل هو موجود بالبلاك ليست ولالا؟
+ ويصير إسم الملف بهالطريقة (.txt ) إمتداد (Append) إذا نعم يتم إضافة 
+Mesh3l.php.txt
+
+:مسموح (.svg) ومنها لاحظت بأن الإمتداد
+صورة
+
+وأشوف يصير أي نوع من الـ (.svg) على طول بدون ماأضيع وقت فكرت أرفع ملف 
+لمحتوى الملف ولالا ؟ Filtration/Sanitization 
+وللأسف الإجابة كانت لا وكانت موجودة بكل إصدارات دروبال 
+
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">jku Header:</p></b></body></html>
 
