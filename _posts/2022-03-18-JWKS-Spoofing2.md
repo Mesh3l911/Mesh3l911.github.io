@@ -68,6 +68,7 @@ Mesh3l.php.txt
 (.svg)
 
 ماكان من ضمنها.
+`lib/Drupal/Core/File/FileSystemInterface.php`
 
 ![](../../posts_pics/INSECURE_EXTENSION_REGEX.png)
 
