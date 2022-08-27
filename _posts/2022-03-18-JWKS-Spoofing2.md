@@ -85,7 +85,7 @@ Filtration/Sanitization
 
 
 
-
+<br><br>
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Exploit Development:</p></b></body></html>
 
 زي ماقلت لكم فوق, هنا من قبل أفكر بأي شي ثاني عرفت إنه عن طريق الـ
@@ -98,7 +98,7 @@ ALERT IS NOT AN EXPLOITATION, it's nothing but a basic POC.
 
 طيب هنا فيه خيارات كثير جدا ممكن نسويها لكن أنا إخترت بكل بساطة نسجل حساب بصلاحيات محدودة وعن طريق الثغرة نجعل الآدمن يرفع صلاحيات الحساب إلى أعلى شي ممكن.
 
-
+<br><br>
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Triggering the vulnerability (Simple POC):</p></b></body></html>
 
 قبل كل شي نبدأ بأبسط شي ممكن والهدف منه التأكد من وجود الثغرة ومن هناك نبدأ بكتابة الإستغلال:
