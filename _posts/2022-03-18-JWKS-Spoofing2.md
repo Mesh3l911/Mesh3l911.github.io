@@ -99,7 +99,7 @@ XSS
 طيب هنا فيه خيارات كثير جدا ممكن نسويها لكن أنا إخترت بكل بساطة نسجل حساب بصلاحيات محدودة وعن طريق الثغرة نجعل الآدمن يرفع صلاحيات الحساب إلى أعلى شي ممكن.
 
 <br><br>
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Triggering the vulnerability (Simple POC):</p></b></body></html>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Triggering the vulnerability (Basic POC):</p></b></body></html>
 
 قبل كل شي نبدأ بأبسط شي ممكن والهدف منه التأكد من وجود الثغرة ومن هناك نبدأ بكتابة الإستغلال:
 
