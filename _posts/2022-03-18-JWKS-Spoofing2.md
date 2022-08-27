@@ -344,7 +344,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 
 <br><br>
 
-> <html><body><b><p style="color:#A52A2A;font-size:25px">References</p></b></body></html>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Conclusion and References</p></b></body></html>
 
  بالختام, دعواتكم لي ولوالدي ولمن أحب.
  وإذا أحد عنده إضافة أبد البلوق للجميع وأنا أول الشاكرين ^_^
