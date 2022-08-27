@@ -54,9 +54,9 @@ tags: [JWKS, JWT]
 
 وهي سلمكم الله (بإختصار) قبل رفع أي ملف يتم مراجعة الإمتداد, هل هو موجود بالبلاك ليست ولالا؟
 
-إذا نعم يصير
+إذا نعم
 
-Append a (.txt) extension
+Will append a (.txt) extension
 
 وتكون النتيجة
 
@@ -67,8 +67,9 @@ Mesh3l.php.txt
 
 (.svg)
 
-مسموح
-صورة
+ماكان من ضمنها.
+
+![](../../posts_pics/INSECURE_EXTENSION_REGEX.png)
 
 على طول بدون ماأضيع وقت فكرت أرفع ملف
 
