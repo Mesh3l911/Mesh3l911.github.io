@@ -30,6 +30,7 @@ tags: [JWKS, JWT]
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Authenticated Stored XSS Affects All Drupal Core Versions:</p></b></body></html>
 
   الله يمسيكم/يصبحكم بالخير.
+  
 بشكل كبير Source Code Auditing الصراحة الموضوع خفيف وماكان فيه 
 :لكن بإذن الله نعوضكم بالجايات, والهدف بالنسبة لي من الموضوع كان نقطتين أساسية
  
@@ -46,10 +47,7 @@ tags: [JWKS, JWT]
  ```
  Arbitrary PHP code execution (CVE-2022-25277)
  # Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014
- 
 ```
-
-
 
 
  File Upload Process بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
@@ -63,6 +61,7 @@ Mesh3l.php.txt
 وأشوف يصير أي نوع من الـ (.svg) على طول بدون ماأضيع وقت فكرت أرفع ملف 
 لمحتوى الملف ولالا ؟ Filtration/Sanitization 
 وللأسف الإجابة كانت لا وكانت موجودة بكل إصدارات دروبال 
+
 
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">jku Header:</p></b></body></html>
