@@ -67,7 +67,7 @@ Mesh3l.php_.txt
 
 (.svg)
 
-ماكان من البلاك ليست
+ماكان من ضمن البلاك ليست
 
 `lib/Drupal/Core/File/FileSystemInterface.php`
 
