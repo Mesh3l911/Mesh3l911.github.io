@@ -48,7 +48,7 @@ tags: [JWKS, JWT]
  # Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014
 ```
 
-   بعد ما إنتهيت من مراجعة السورس كود فهمت بالضبط طريقة الـ
+   بعد ما إنتهيت صار عندي فهم بشكل كافي للـ
    
  File Upload Functionality Process
 
@@ -60,7 +60,7 @@ Will append a (.txt) extension
 
 وتكون النتيجة
 
-Mesh3l.php.txt
+Mesh3l.php_.txt
 
 
 ومنها لاحظت بأن الإمتداد
