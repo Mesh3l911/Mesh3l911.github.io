@@ -82,7 +82,7 @@ Mesh3l.php_.txt
 
 (.svg) 
 
-وأشوف يصير أي نوع من الـ
+وأشوف هل يصير أي نوع من الـ
 
 Filtration/Sanitization 
 
