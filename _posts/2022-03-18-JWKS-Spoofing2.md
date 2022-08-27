@@ -238,7 +238,7 @@ XSS
 
 نرجع لموضوعنا, أنا هنا إستخدمت 
 
-```javascript
+```js
 //Extracting the Anti-CSRF Token
 var XHR = new XMLHttpRequest();
 XHR.onreadystatechange = function(){
@@ -279,7 +279,7 @@ getElementsByName() method
 
 الخطوة الأخيرة وهي كتابة كامل الإستغلال:
 
-```python
+```js
 //A function to escalate the privilage to Administrator
 function escalation(csrfToken){
 
