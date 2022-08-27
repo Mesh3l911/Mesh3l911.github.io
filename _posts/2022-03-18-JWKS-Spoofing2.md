@@ -72,6 +72,9 @@ Mesh3l.php.txt
 
 ![](../../posts_pics/INSECURE_EXTENSION_REGEX.png)
 
+<br>
+`modules/system/src/EventSubscriber/SecurityFileUploadEventSubscriber.php`
+![](../../posts_pics/Appending.png)
 على طول بدون ماأضيع وقت فكرت أرفع ملف
 
 (.svg) 
