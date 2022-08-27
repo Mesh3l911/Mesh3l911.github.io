@@ -345,7 +345,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 > <html><body><b><p style="color:#A52A2A;font-size:25px">References</p></b></body></html>
 
  بالختام, دعواتكم لي ولوالدي ولمن أحب.
- وإذا عند أي شخص تعديل أو إضافة أبد البلوق للجميع ^_^
+ وإذا أحد عنده إضافة أبد البلوق للجميع وأنا أول الشاكرين ^_^
  
 -   https://github.com/drupal/core/commit/1cd1830d79f221cc8490f53c2bb487dd07094f17
 -   https://www.drupal.org/sa-core-2022-014
