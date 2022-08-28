@@ -1,9 +1,9 @@
 ---
-title: JSON Web Key Sets Spoofing (JWKS Spoofing)
+title: Authenticated Stored XSS Affects ALL Drupal Core Versions
 author: Mesh3l_911
-date: 2022-03-13 18:32:00 -0500
+date: 2022-08-28 18:32:00 -0500
 categories: [Blogging, Tutorial]
-tags: [JWKS, JWT]
+tags: [XSS, Token]
 ---
 
 
