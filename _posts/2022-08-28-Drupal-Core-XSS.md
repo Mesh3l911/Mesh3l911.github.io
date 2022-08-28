@@ -345,9 +345,7 @@ XHR.send();
 :وهذا مقطع يوضح كل التفاصيل اللي فوق بشكل عملي
 <br>
 
- <iframe width="700" height="600"
-src="https://www.youtube.com/watch?v=tTJEmredVdE">
-</iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tTJEmredVdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 
