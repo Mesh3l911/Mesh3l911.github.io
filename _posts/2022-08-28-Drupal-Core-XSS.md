@@ -216,7 +216,8 @@ if __name__ == '__main__':
 ```
 
 ![](../../posts_pics/options.png)
-
+<br>
+![](../../posts_pics/POC_UPLOADED.png)
 <br><br>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">XSS to Bypaass the Anti-CSRF Token Using XMLHttpRequest (XHR)</p></b></body></html>
@@ -339,12 +340,14 @@ XHR.onreadystatechange = function(){
 XHR.open('GET', 'http://localhost/drupal-9.4.5/user/2/edit', true);
 XHR.send();
 ```
-
+<br>
+![](../../posts_pics/PrivEsc.png)
+<br>
 وبكذا أول مايزور الآدمن الملف راح يتم تنفيذ هذ الكود والهدف منه زي ماقلنا رفع صلاحياتنا المحدودة إلى أعلى صلاحية.
 
 :وهذا مقطع يوضح كل التفاصيل اللي فوق بشكل عملي
 <br>
-<ul><i class="fab fa-linkedin"></i> <a href="https://www.youtube.com/watch?v=tTJEmredVdE"> Drupal's Core Authenticated Stored XSS POC</a></ul>
+<ul><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=tTJEmredVdE"> Drupal's Core Authenticated Stored XSS POC</a></ul>
 <br><br>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Conclusion and References</p></b></body></html>
