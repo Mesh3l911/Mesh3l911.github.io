@@ -159,7 +159,7 @@ countries )</ul>
 <a href="https://mesh3l911.github.io/posts/Drupal-Core-XSS/">Auth Stored XSS Affects ALL Drupal Core Versions</a></ul>
 
     
-    <ul><li><b>JSON Web Key Sets Spoofing (JWKS Spoofing):</b></li> <br>
+<ul><li><b>JSON Web Key Sets Spoofing (JWKS Spoofing):</b></li> <br>
  In this Article I described [ What's JWK & JWKS?, jku Header, JWKS Spoofing Attack (Blackbox Approach), Challenge (Whitebox Approach). <br>
 <a href="https://mesh3l911.github.io/posts/JWKS-Spoofing/">JSON Web Key Sets Spoofing (JWKS Spoofing)</a></ul>
     
