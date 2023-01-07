@@ -154,6 +154,10 @@ countries )</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
 
+<ul><li><b>Debugging JS Based Web Apps Locally:</b></li> <br>
+ In this Article I introduced how debugging could be done using VSCode by debugging a basic NodeJS based app to illustriate different featers of VSCode <br>
+<a href="https://mesh3l911.github.io/assets/pdfs/Debugging_JS_Based_Web_Apps_Locally.pdf/">Debugging JS Based Web Apps Locally</a></ul>
+    
 <ul><li><b>Auth Stored XSS Affects ALL Drupal Core Versions:</b></li> <br>
  In this Article I demonestrated my latest finding in Drupal [Authenticated Stored XSS Affects All Drupal Core Versions] then [1-Triggering the vulnerability (Basic POC), 2-Uploading SVG File Using Python, 3-XSS to Bypaass the Anti-CSRF Token Using XMLHttpRequest (XHR), 4-Escalating Our Privilage to Administrator Using XMLHttpRequest (XHR)] <br>
 <a href="https://mesh3l911.github.io/posts/Drupal-Core-XSS/">Auth Stored XSS Affects ALL Drupal Core Versions</a></ul>
