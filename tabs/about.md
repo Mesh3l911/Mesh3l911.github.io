@@ -154,7 +154,13 @@ countries )</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
 
-<ul><li><b>Debugging JS Based Web Apps Locally:</b></li> <br>
+
+<ul><li><b>Dependency Confusion:</b></li> <br>
+ In this Article I illustrated how we could done a supply chain attack through what's called Dependency Confusion attack [Dependencies, Package Manageers, Private/Public registries, DNS Exfiltration] <br>
+<a href="https://mesh3l911.github.io/assets/pdfs/Dependency_Confusion.pdf">Dependency Confusion</a></ul>
+    
+    
+    <ul><li><b>Debugging JS Based Web Apps Locally:</b></li> <br>
  In this Article I introduced how debugging could be done using VSCode by debugging a basic NodeJS based app to illustriate different featers of VSCode <br>
 <a href="https://mesh3l911.github.io/assets/pdfs/Debugging_JS_Based_Web_Apps_Locally.pdf">Debugging JS Based Web Apps Locally</a></ul>
     
