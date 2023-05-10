@@ -4,7 +4,7 @@
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
 
-<b>Hello There ^_^ .<br>In few words. I'm ```Meshal AlMansour```, A passionate Penetration Tester who's trying to improve his skills day by another. For me Penetration Testing isn't just about a job or even an engagement to be done. It's passion , happiness, enthusiasm, mentality and much more. Sometimes I wish my day was longer than 24hrs just to stay in front of my computer and do CyberSecurity stuff ( Because simply this is the thing that I like ). I believe that ( The sky isn't even a limit for me ). Scroll down to figure out some of my achievements that I've done within less than 2 years of experience.<br>
+<b>Hello There ^_^ .<br>In few words. I'm ```Meshal AlMansour AlYami```, A passionate RedTeam Operator who's trying to improve his skills day by another. For me Cybersecurity isn't just about a job or even an engagement to be done. It's passion , happiness, enthusiasm, mentality and much more. Sometimes I wish my day was longer than 24hrs just to stay in front of my computer and do CyberSecurity stuff (Because simply this is the thing that I like). I believe that (The sky isn't the limit for me. NOTHING IS). Scroll down to figure out some of my achievements that I've done within about 3 years of experience.<br>
 
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
@@ -31,44 +31,6 @@ eLearnSecurity</ul>
 <ul><li><b>TOEFL iBT Test</b></li> <br>
 ETS TOEFL ( Score: 71 )</ul>
   
-> <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
-
- <ul><li><b>Sub Search v1.0</b></li> <br>
-A tool that automates the process of Getting all levels of subdomains that have A dns record by brute-forcing forward DNS lookup (recursively) </ul>
-<ul><li><b>Sub_Analyser v1.0</b></li> <br>
-A tool that automates the process of testing web applications
-against Sub-Domain TakeOver vulnerabilities based on the CNAME
-DNS record</ul>
-<ul><li><b>Shell Escaper v1.0</b></li> <br>
-A tool that automates the process of extracting the Shell Escape
-Sequences for Binaries with Setuid bit and Sudo out of GTFOBins
-with three different ways both locally and remotely</ul>
-<ul><li><b>Redirecter v1.0</b></li> <br>
-A tool that automates the process of testing web applications
-against Open Redirection vulnerabilities</ul>
-<ul><li><b>JS Scrapper v1.0</b></li> <br>
-A tool that automates the process of extracting JS files out of
-each URL provided within the provided urls list</ul>
-<ul><li><b>SQLi_Checker v1.1</b></li> <br>
-A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list with more features than SQLi_Checker v1.0 such as (Testing By IP , dork or collected urls ) & 4 Types of Blind SQLi</ul>
-<ul><li><b>SQLi_Checker v1.0</b></li> <br>
-A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list</ul>
-
-> <html><body><b><p style="color:#A52A2A;font-size:25px">TECHNICAL SKILLS:</p></b></body></html>
-
-<ul><li><b>Performing Dynamic/Static web application penetration
-testing ( SAST/DAST )</b></li></ul>
-<ul><li><b>Experienced with OWASP Web/Api standards and processes
-for conducting penetration testing</b></li></ul>
-<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
-<ul><li><b>Experienced with the Networks/Networks penetration
-testing fundamentals</b></li></ul>
-<ul><li><b>Fundamentals of :</b></li> <br>
--Linux/Windows Privileges escalation <br>
--Regular Expressions <br>
--Mobile Apps static/dynamic analysis fundamentals <br>
--Windows Buffer Overflows</ul>
-
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">CVEs</p></b></body></html>
 
@@ -107,14 +69,13 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
     
 <ul><li><b>CVE-2021-32162:</b></li> <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
-    
-    
-    
+     
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
-<ul><li><b>Apple Hall Of Fame:</b></li> <br>
-<a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications</a></ul>
+<ul><li><b>Apple Hall Of Fame 2x times (Feb, 2023) & (Feb,2021):</b></li> <br>
+<a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications <br>
+    <a href="https://support.apple.com/en-us/HT213636/">Apple web server notifications</a></ul>
 <ul><li><b>Webmin Hall Of Fame:</b></li> <br>
 <a href="https://webmin.com/security.html">Webmin's security alerts</a></ul>
 <ul><li><b>GE Healthcare Hall Of Fame:</b></li> <br>
@@ -125,6 +86,45 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <a href="https://www.sang.gov.sa/Pages/default.aspx/">Ministry of National Guard</a></ul>
 <ul><li><b>King Fahd University of Petroleum and Minerals:</b></li> <br>
 <a href="http://www.kfupm.edu.sa/">KFUPM </a></ul>
+
+    > <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
+
+ <ul><li><b>Sub Search v1.0</b></li> <br>
+A tool that automates the process of Getting all levels of subdomains that have A dns record by brute-forcing forward DNS lookup (recursively) </ul>
+<ul><li><b>Sub_Analyser v1.0</b></li> <br>
+A tool that automates the process of testing web applications
+against Sub-Domain TakeOver vulnerabilities based on the CNAME
+DNS record</ul>
+<ul><li><b>Shell Escaper v1.0</b></li> <br>
+A tool that automates the process of extracting the Shell Escape
+Sequences for Binaries with Setuid bit and Sudo out of GTFOBins
+with three different ways both locally and remotely</ul>
+<ul><li><b>Redirecter v1.0</b></li> <br>
+A tool that automates the process of testing web applications
+against Open Redirection vulnerabilities</ul>
+<ul><li><b>JS Scrapper v1.0</b></li> <br>
+A tool that automates the process of extracting JS files out of
+each URL provided within the provided urls list</ul>
+<ul><li><b>SQLi_Checker v1.1</b></li> <br>
+A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list with more features than SQLi_Checker v1.0 such as (Testing By IP , dork or collected urls ) & 4 Types of Blind SQLi</ul>
+<ul><li><b>SQLi_Checker v1.0</b></li> <br>
+A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list</ul>
+
+> <html><body><b><p style="color:#A52A2A;font-size:25px">TECHNICAL SKILLS:</p></b></body></html>
+
+<ul><li><b>Performing Dynamic/Static web application penetration
+testing ( SAST/DAST )</b></li></ul>
+<ul><li><b>Experienced with OWASP Web/Api standards and processes
+for conducting penetration testing</b></li></ul>
+<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
+<ul><li><b>Experienced with the Networks/Networks penetration
+testing fundamentals</b></li></ul>
+<ul><li><b>Fundamentals of :</b></li> <br>
+-Linux/Windows Privileges escalation <br>
+-Regular Expressions <br>
+-Mobile Apps static/dynamic analysis fundamentals <br>
+-Windows Buffer Overflows</ul>
+
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Competitions:</p></b></body></html>
 
