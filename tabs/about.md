@@ -76,7 +76,7 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
 <ul><li><b>Apple Hall Of Fame 2x times (Feb, 2023) & (Feb,2021):</b></li> <br>
-<a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications (Feb, 2023) <br>
+<a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications (Feb, 2023)</a><br>
 <a href="https://support.apple.com/en-us/HT213636/">Apple web server notifications (Feb,2021)</a></ul>
 <ul><li><b>Webmin Hall Of Fame:</b></li> <br>
 <a href="https://webmin.com/security.html">Webmin's security alerts</a></ul>
