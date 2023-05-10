@@ -72,10 +72,8 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
     
 <ul><li><b>CVE-2021-32162:</b></li> <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
-     
     
-    
-    > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
 <ul><li><b>Apple Hall Of Fame 2x times (Feb, 2023) & (Feb,2021):</b></li> <br>
 <a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications (Feb, 2023) <br>
@@ -92,7 +90,7 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <a href="http://www.kfupm.edu.sa/">KFUPM </a></ul>
 
     
-    > <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
 
  <ul><li><b>Sub Search v1.0</b></li> <br>
 A tool that automates the process of Getting all levels of subdomains that have A dns record by brute-forcing forward DNS lookup (recursively) </ul>
