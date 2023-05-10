@@ -7,6 +7,7 @@
 <b>Hello There ^_^ .<br>In few words. I'm ```Meshal AlMansour AlYami```, A passionate RedTeam Operator who's trying to improve his skills day by another. For me Cybersecurity isn't just about a job or even an engagement to be done. It's passion , happiness, enthusiasm, mentality and much more. Sometimes I wish my day was longer than 24hrs just to stay in front of my computer and do CyberSecurity stuff (Because simply this is the thing that I like). I believe that (The sky isn't the limit for me. NOTHING IS). Scroll down to figure out some of my achievements that I've done within about 3 years of experience.<br>
 
 
+    
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
 <ul><li><b>Ministry of Communications and Information Technology of Saudi Arabia</b></li> <br>
@@ -17,6 +18,7 @@ Penetration Tester at Synack since (Jul,2021)(Part Time) </ul>
 <ul><li><b>Saudi Federation for Cybersecurity, Programming and Drones</b></li> <br>
 Penetration Tester since (Sep,2020)(Part Time)<br></ul>
  
+    
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
     
 <ul><li><b>Offensive Security Web Expert ( OSWE )</b></li> <br>
@@ -31,6 +33,7 @@ eLearnSecurity</ul>
 <ul><li><b>TOEFL iBT Test</b></li> <br>
 ETS TOEFL ( Score: 71 )</ul>
   
+    
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">CVEs</p></b></body></html>
 
@@ -71,7 +74,8 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
      
     
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
+    
+    > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
 <ul><li><b>Apple Hall Of Fame 2x times (Feb, 2023) & (Feb,2021):</b></li> <br>
 <a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications (Feb, 2023) <br>
@@ -87,6 +91,7 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <ul><li><b>King Fahd University of Petroleum and Minerals:</b></li> <br>
 <a href="http://www.kfupm.edu.sa/">KFUPM </a></ul>
 
+    
     > <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
 
  <ul><li><b>Sub Search v1.0</b></li> <br>
