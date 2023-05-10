@@ -89,72 +89,6 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <ul><li><b>King Fahd University of Petroleum and Minerals:</b></li> <br>
 <a href="http://www.kfupm.edu.sa/">KFUPM </a></ul>
 
-    
-> <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
-
- <ul><li><b>Sub Search v1.0</b></li> <br>
-A tool that automates the process of Getting all levels of subdomains that have A dns record by brute-forcing forward DNS lookup (recursively) </ul>
-<ul><li><b>Sub_Analyser v1.0</b></li> <br>
-A tool that automates the process of testing web applications
-against Sub-Domain TakeOver vulnerabilities based on the CNAME
-DNS record</ul>
-<ul><li><b>Shell Escaper v1.0</b></li> <br>
-A tool that automates the process of extracting the Shell Escape
-Sequences for Binaries with Setuid bit and Sudo out of GTFOBins
-with three different ways both locally and remotely</ul>
-<ul><li><b>Redirecter v1.0</b></li> <br>
-A tool that automates the process of testing web applications
-against Open Redirection vulnerabilities</ul>
-<ul><li><b>JS Scrapper v1.0</b></li> <br>
-A tool that automates the process of extracting JS files out of
-each URL provided within the provided urls list</ul>
-<ul><li><b>SQLi_Checker v1.1</b></li> <br>
-A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list with more features than SQLi_Checker v1.0 such as (Testing By IP , dork or collected urls ) & 4 Types of Blind SQLi</ul>
-<ul><li><b>SQLi_Checker v1.0</b></li> <br>
-A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list</ul>
-
-> <html><body><b><p style="color:#A52A2A;font-size:25px">TECHNICAL SKILLS:</p></b></body></html>
-
-<ul><li><b>Performing Dynamic/Static web application penetration
-testing ( SAST/DAST )</b></li></ul>
-<ul><li><b>Experienced with OWASP Web/Api standards and processes
-for conducting penetration testing</b></li></ul>
-<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
-<ul><li><b>Experienced with the Networks/Networks penetration
-testing fundamentals</b></li></ul>
-<ul><li><b>Fundamentals of :</b></li> <br>
--Linux/Windows Privileges escalation <br>
--Regular Expressions <br>
--Mobile Apps static/dynamic analysis fundamentals <br>
--Windows Buffer Overflows</ul>
-
-
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Competitions:</p></b></body></html>
-
-<ul><li><b>First place ( 1st ) in Saudi Aramco CyberSecurity Chair 2021 with my team ( Potato )</b></li> <br>
-Saudi Aramco CyberSecurity Chair CTF was to all cybersecurity students and recent graduates in SaudiArabia where 170 teams have participated from 41 different universities with a total of 807 compititors</ul>
-
-<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF in Finals with my team ( PeakyBlinders ) - 2021</b></li> <br>
-Got qualified for the Arab and Africa Regional CTF ( among more than 25
-countries)</ul> 
-<ul><li><b>First place ( 1st ) in Watad CTF 2021 ( PeakyBlinders )</b></li> <br>
-Watad's CTF was to all cybersecurity engineers & pentesters in SaudiArabia where 42 teams have participated with a total of 100+ compititors</ul>
-    
-<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF
-Qualification round 2020</b></li> <br>
-Individually</ul>
-    
-<ul><li><b>First place ( 1st ) in Cyber Hub universities CTF 2020 with
-my team ( BloodHunters )</b></li> <br>
-Among ( more than 35 universities , 2000 students and 480 teams )</ul>
-<ul><li><b>First place ( 1st ) in Cyber Hub universities CTF 2021 with
-my team ( BloodHunters )</b></li> <br>
-2nd version</ul>
-<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF
-in Finals with my team (k$a)</b></li> <br>
-Got qualified for the Arab and Africa Regional CTF ( among more than 20
-countries )</ul>
-
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
 
 
@@ -227,6 +161,72 @@ Jmes Kittle introduced one type of host header injections which's Local Route Po
 <ul><li><b>Python subprocess Module:</b></li> <br>
 Getting Command Injection through python subprocess Module <br>
 <a href="https://twitter.com/Mesh3l_911/status/1336844985325457410?s=20/">Python subprocess Module command injection</a></ul>
+    
+> <html><body><b><p style="color:#A52A2A;font-size:25px">PERSONAL PROJECTS:</p></b></body></html>
+
+ <ul><li><b>Sub Search v1.0</b></li> <br>
+A tool that automates the process of Getting all levels of subdomains that have A dns record by brute-forcing forward DNS lookup (recursively) </ul>
+<ul><li><b>Sub_Analyser v1.0</b></li> <br>
+A tool that automates the process of testing web applications
+against Sub-Domain TakeOver vulnerabilities based on the CNAME
+DNS record</ul>
+<ul><li><b>Shell Escaper v1.0</b></li> <br>
+A tool that automates the process of extracting the Shell Escape
+Sequences for Binaries with Setuid bit and Sudo out of GTFOBins
+with three different ways both locally and remotely</ul>
+<ul><li><b>Redirecter v1.0</b></li> <br>
+A tool that automates the process of testing web applications
+against Open Redirection vulnerabilities</ul>
+<ul><li><b>JS Scrapper v1.0</b></li> <br>
+A tool that automates the process of extracting JS files out of
+each URL provided within the provided urls list</ul>
+<ul><li><b>SQLi_Checker v1.1</b></li> <br>
+A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list with more features than SQLi_Checker v1.0 such as (Testing By IP , dork or collected urls ) & 4 Types of Blind SQLi</ul>
+<ul><li><b>SQLi_Checker v1.0</b></li> <br>
+A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list</ul>
+
+> <html><body><b><p style="color:#A52A2A;font-size:25px">TECHNICAL SKILLS:</p></b></body></html>
+
+<ul><li><b>Performing Dynamic/Static web application penetration
+testing ( SAST/DAST )</b></li></ul>
+<ul><li><b>Experienced with OWASP Web/Api standards and processes
+for conducting penetration testing</b></li></ul>
+<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
+<ul><li><b>Experienced with the Networks/Networks penetration
+testing fundamentals</b></li></ul>
+<ul><li><b>Fundamentals of :</b></li> <br>
+-Linux/Windows Privileges escalation <br>
+-Regular Expressions <br>
+-Mobile Apps static/dynamic analysis fundamentals <br>
+-Windows Buffer Overflows</ul>
+
+
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Competitions:</p></b></body></html>
+
+<ul><li><b>First place ( 1st ) in Saudi Aramco CyberSecurity Chair 2021 with my team ( Potato )</b></li> <br>
+Saudi Aramco CyberSecurity Chair CTF was to all cybersecurity students and recent graduates in SaudiArabia where 170 teams have participated from 41 different universities with a total of 807 compititors</ul>
+
+<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF in Finals with my team ( PeakyBlinders ) - 2021</b></li> <br>
+Got qualified for the Arab and Africa Regional CTF ( among more than 25
+countries)</ul> 
+<ul><li><b>First place ( 1st ) in Watad CTF 2021 ( PeakyBlinders )</b></li> <br>
+Watad's CTF was to all cybersecurity engineers & pentesters in SaudiArabia where 42 teams have participated with a total of 100+ compititors</ul>
+    
+<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF
+Qualification round 2020</b></li> <br>
+Individually</ul>
+    
+<ul><li><b>First place ( 1st ) in Cyber Hub universities CTF 2020 with
+my team ( BloodHunters )</b></li> <br>
+Among ( more than 35 universities , 2000 students and 480 teams )</ul>
+<ul><li><b>First place ( 1st ) in Cyber Hub universities CTF 2021 with
+my team ( BloodHunters )</b></li> <br>
+2nd version</ul>
+<ul><li><b>First place ( 1st ) in CyberTalents Saudi Arabia National CTF
+in Finals with my team (k$a)</b></li> <br>
+Got qualified for the Arab and Africa Regional CTF ( among more than 20
+countries )</ul>
+
 
 
  > <html><body><b><p style="color:#A52A2A;font-size:25px">POCs & Automation</p></b></body></html>
