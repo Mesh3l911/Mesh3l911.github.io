@@ -10,28 +10,50 @@
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>Ministry of Communications and Information Technology of Saudi Arabia</b></li> <br>
-Cyber Security Analyst since (Feb,2022)(Full Time) </ul>
+<ul><li><b>Penetration Tester @ Ministry of Communications and Information Technology of Saudi Arabia since - (Feb,2022)</b></li> <br>
+ <ul>
+      <li>Conducting web applications, network and mobile applications
+penetration tests</li>
+      <li>Research, evaluate, document and discuss findings with responsible
+teams including but not limited to [ITsec, System, PMO, infrastructure
+and network teams]</li>
+          <li>Following up and re-test(validate) any submitted reports in order to
+make sure that the countermeasures have been done properly.</li>
+          <li>Simulating the adversary most recent attacks/techniques</li>
+          <li>Research, evaluate, document and discuss findings with responsible
+teams including but not limited to [ITsec, System, PMO, infrastructure
+and network teams]</li>
+          <li>Source Code Review</li>
+    <li>Review and provide a feedback for some GRC requests from a PT/VA
+perspective.</li>
+    <li>Keeping up to date with recent vulnerabilities and validate/report them
+to the responsible teams.</li>
+    <li>PT Training for MCIT cybersecurity department trainees</li>
+    </ul> </ul>
     
-<ul><li><b>Synack Red Team member</b></li> <br>
-Penetration Tester at Synack since (Jul,2021)(Part Time) </ul>
-<ul><li><b>Saudi Federation for Cybersecurity, Programming and Drones</b></li> <br>
-Penetration Tester since (Sep,2020)(Part Time)<br></ul>
+<ul><li><b>Penetration Tester @ Synack since (Synak RedTeam Member) - (Part Time)</b></li> <br>
+ <ul>
+      <li>Conducting web applications white/black box tests</li>
+    </ul> </ul>
  
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
     
-<ul><li><b>Offensive Security Web Expert ( OSWE )</b></li> <br>
+<ul><li><b>Offensive Security Web Expert (OSWE)</b></li> <br>
+Offensive Security</ul>
+
+<ul><li><b>Exploit Researcher and Advanced Penetration
+Tester (GXPN CTF Coin)</b></li> <br>
 Offensive Security</ul>
     
-<ul><li><b>Web Application Penetration Testing eXtreme( eWPTXv2 )</b></li> <br>
+<ul><li><b>Web Application Penetration Testing eXtreme (eWPTXv2)</b></li> <br>
 eLearnSecurity</ul>
-<ul><li><b>Offensive Security Certified Professional ( OSCP )</b></li> <br>
+<ul><li><b>Offensive Security Certified Professional (OSCP)</b></li> <br>
 Offensive Security</ul>
-<ul><li><b>Web Application Penetration Testing ( eWPT )</b></li> <br>
+<ul><li><b>Web Application Penetration Testing (eWPT)</b></li> <br>
 eLearnSecurity</ul>
 <ul><li><b>TOEFL iBT Test</b></li> <br>
-ETS TOEFL ( Score: 71 )</ul>
+ETS TOEFL (Score: 71)</ul>
   
     
 
@@ -184,22 +206,6 @@ each URL provided within the provided urls list</ul>
 A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list with more features than SQLi_Checker v1.0 such as (Testing By IP , dork or collected urls ) & 4 Types of Blind SQLi</ul>
 <ul><li><b>SQLi_Checker v1.0</b></li> <br>
 A tool to automate the process of testing web applications against different SQLi types > Get method > based on (known) payloads list</ul>
-
-> <html><body><b><p style="color:#A52A2A;font-size:25px">TECHNICAL SKILLS:</p></b></body></html>
-
-<ul><li><b>Performing Dynamic/Static web application penetration
-testing ( SAST/DAST )</b></li></ul>
-<ul><li><b>Experienced with OWASP Web/Api standards and processes
-for conducting penetration testing</b></li></ul>
-<ul><li><b>PYTHON coder and familiar with C, JAVA, PHP, BASH, JavaScript, C# basics</b></li></ul>
-<ul><li><b>Experienced with the Networks/Networks penetration
-testing fundamentals</b></li></ul>
-<ul><li><b>Fundamentals of :</b></li> <br>
--Linux/Windows Privileges escalation <br>
--Regular Expressions <br>
--Mobile Apps static/dynamic analysis fundamentals <br>
--Windows Buffer Overflows</ul>
-
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Competitions:</p></b></body></html>
 
