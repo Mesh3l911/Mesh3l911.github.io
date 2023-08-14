@@ -114,6 +114,12 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
 
 
+
+<ul><li><b>The story behind CVE-2023-4059:</b></li> <br>
+The function wppb_create_form_pages that’s being hooked to the admin_init action is accessible to un-authenticated end-users due to the lack of proper authorization checks which allow threat actors to create/publish [Register/Edit Profile/Log in]. <br>
+<a href="https://mesh3l911.github.io/posts/CVE-Profile-Builder/">The story behind CVE-2023-4059</a></ul>
+
+
 <ul><li><b>Dependency Confusion:</b></li> <br>
  In this Article I illustrated how we could done a supply chain attack through what's called Dependency Confusion attack [Dependencies, Package Manageers, Private/Public registries, DNS Exfiltration] <br>
 <a href="https://mesh3l911.github.io/assets/pdfs/Dependency_Confusion.pdf">Dependency Confusion</a></ul>
