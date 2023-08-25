@@ -19,6 +19,7 @@ teams including but not limited to [ITsec, System, PMO, infrastructure
 and network teams]</li>
           <li>Following up and re-test(validate) any submitted reports in order to
 make sure that the countermeasures have been done properly.</li>
+         <li>Completing Essential Cybersecurity Controls (ECC) PT requirments </li>
           <li>Simulating the adversary most recent attacks/techniques</li>
           <li>Research, evaluate, document and discuss findings with responsible
 teams including but not limited to [ITsec, System, PMO, infrastructure
@@ -44,7 +45,7 @@ Offensive Security</ul>
 
 <ul><li><b>Exploit Researcher and Advanced Penetration
 Tester (GXPN CTF Coin)</b></li> <br>
-Offensive Security</ul>
+SANS Institute</ul>
     
 <ul><li><b>Web Application Penetration Testing eXtreme (eWPTXv2)</b></li> <br>
 eLearnSecurity</ul>
