@@ -45,6 +45,9 @@
 <ul><li><b>Offensive Security Web Expert (OSWE)</b></li> <br>
 Offensive Security</ul>
 
+<ul><li><b>GIAC Exploit Researcher and Advanced Penetration Tester (GXPN) </b></li> <br>
+SANS Institute</ul>
+
 <ul><li><b>Exploit Researcher and Advanced Penetration
 Tester (GXPN CTF Coin)</b></li> <br>
 SANS Institute</ul>
