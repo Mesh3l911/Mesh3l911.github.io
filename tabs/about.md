@@ -120,7 +120,7 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 <ul><li><b>King Fahd University of Petroleum and Minerals:</b></li> <br>
 <a href="http://www.kfupm.edu.sa/">KFUPM </a></ul>
 
-> <html><body><b><p style="color:#A52A2A;font-size:25px">Articles</p></b></body></html>
+> <html><body><b><p style="color:#A52A2A;font-size:25px">Researches/Articles</p></b></body></html>
 
 
 
