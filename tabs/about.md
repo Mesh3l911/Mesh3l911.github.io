@@ -10,32 +10,8 @@
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>Penetration Tester @ Ministry of Communications and Information Technology of Saudi Arabia since - (Feb,2022)</b></li> <br>
- <ul>
-      <li>Conducting web applications, network and mobile applications
-penetration tests</li>
-      <li>Research, evaluate, document and discuss findings with responsible
-teams including but not limited to [ITsec, System, PMO, infrastructure
-and network teams]</li>
-          <li>Following up and re-test(validate) any submitted reports in order to
-make sure that the countermeasures have been done properly.</li>
-         <li>Completing Essential Cybersecurity Controls (ECC) PT requirments </li>
-          <li>Simulating the adversary most recent attacks/techniques</li>
-          <li>Research, evaluate, document and discuss findings with responsible
-teams including but not limited to [ITsec, System, PMO, infrastructure
-and network teams]</li>
-          <li>Source Code Review</li>
-    <li>Review and provide a feedback for some GRC requests from a PT/VA
-perspective.</li>
-    <li>Keeping up to date with recent vulnerabilities and validate/report them
-to the responsible teams.</li>
-    <li>PT Training for MCIT cybersecurity department trainees</li>
-    </ul> </ul>
-    
-<ul><li><b>Penetration Tester @ Synack since (Synak RedTeam Member) - (Part Time)</b></li> <br>
- <ul>
-      <li>Conducting web applications white/black box tests</li>
-    </ul> </ul>
+<ul><li><b>VAPT Consultant @ Cyberani since - (Oct,2023)</b></li> <br>
+ </ul>
  
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
