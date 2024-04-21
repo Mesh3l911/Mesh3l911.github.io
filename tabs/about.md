@@ -10,10 +10,17 @@
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>VAPT Consultant @ Cyberani since - (Oct,2023)</b></li> <br>
- </ul>
+<ul><li><b>VAPT Consultant @ Cyberani since - (Oct, 2023)</b></li> <br>
+      <ul>
+       <li>Building new services such as Source Code Review and Red Teaming services.</li>
+       <li>Implementing penetration testing and vulnerability assessment automation tools and processes.</li>
+           <li>Conducting web applications, network penetration tests for Cyberani Clients.</li>
+          <li>Performing vulnerability assessments for Cyberani Clients.</li>
+           <li>Organizing Cyberani CTF competitions for events such as LEAP</li>
+     </ul> </ul>
+
  
-<ul><li><b>Penetration Tester @ Ministry of Communications and Information Technology of Saudi Arabia since - (Feb,2022)</b></li> <br>
+<ul><li><b>Penetration Tester @ Ministry of Communications and Information Technology of Saudi Arabia (Feb, 2022 - Oct, 2023)</b></li> <br>
   <ul>
        <li>Conducting web applications, network and mobile applications
  penetration tests</li>
@@ -49,7 +56,7 @@ Offensive Security</ul>
 SANS Institute</ul>
 
 <ul><li><b>Exploit Researcher and Advanced Penetration
-Tester (GXPN CTF Coin)</b></li> <br>
+Tester (GXPN CTF Coin - 1st place)</b></li> <br>
 SANS Institute</ul>
     
 <ul><li><b>Web Application Penetration Testing eXtreme (eWPTXv2)</b></li> <br>
@@ -65,6 +72,12 @@ ETS TOEFL (Score: 71)</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">CVEs</p></b></body></html>
 
+<ul><li><b>CVE-2024-25600 PoC:</b></li> <br>
+ 0 click Pre-auth RCE in Bricks theme for WordPress [used by +25,000 sites] <br>
+<a href="https://x.com/Mesh3l_911/status/1760575713793527882">CVE-2024-25600 PoC</a></ul>
+<ul><li><b>CVE-2023-3124 PoC:</b></li> <br>
+ 0 click auth-RCE in Elemntor-Pro Plugin for WordPress [used by million websites] <br>
+<a href="https://x.com/Mesh3l_911/status/1647834591699300352">CVE-2021-3138</a></ul>
 <ul><li><b>CVE-2023-4059:</b></li> <br>
 The function wppb_create_form_pages that’s being hooked to the
 admin_init action is accessible to un-authenticated end-users due to the lack
