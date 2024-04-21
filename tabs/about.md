@@ -132,11 +132,11 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 
 
 <ul><li><b>CVE-2024-25600 PoC:</b></li> <br>
- 0 click Pre-auth RCE in Bricks theme for WordPress [used by +25,000 sites] <br>
+ 0 click Pre-auth RCE in Bricks theme for WordPress [used by +25,000 websites] <br>
 <a href="https://x.com/Mesh3l_911/status/1760575713793527882">CVE-2024-25600 PoC</a></ul>
 <ul><li><b>CVE-2023-3124 PoC:</b></li> <br>
- 0 click auth-RCE in Elemntor-Pro Plugin for WordPress [used by million websites] <br>
-<a href="https://x.com/Mesh3l_911/status/1647834591699300352">CVE-2021-3138</a></ul>
+ 0 click auth-RCE in Elemntor-Pro Plugin for WordPress [used by millions of websites] <br>
+<a href="https://x.com/Mesh3l_911/status/1647834591699300352">CVE-2021-3138 PoC</a></ul>
 
 <ul><li><b>The story behind CVE-2023-4059:</b></li> <br>
 The function wppb_create_form_pages that’s being hooked to the admin_init action is accessible to un-authenticated end-users due to the lack of proper authorization checks which allow threat actors to create/publish [Register/Edit Profile/Log in]. <br>
