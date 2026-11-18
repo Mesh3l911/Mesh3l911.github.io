@@ -1,15 +1,15 @@
 <p class="aligncenter">
     <img src="/pics/LOGO.png" alt="centered image" />
 </p>
-<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html><br>
-<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">بفضل الله تعالى ومنّته ورحمته, أحمده جلّ ثناؤه حمدًا يفوق حمد الحامدين</p></body></html><br><br>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">بفضل الله تعالى ومنّته ورحمته ومعونته, أحمده جلّ ثناؤه حمدًا يفوق حمد الحامدين</p></body></html>
 <html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">دعواتكم لوالدي ولي ولأهلي ولجميع من لهم حق علي وللجميع</p></body></html><br><br>
 
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
 
 
-<b>السلام عليكم ورحمة الله وبركاته.<br>. I'm ```Meshal AlMansour AlYami```, A Senior VAPT Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
+<b>السلام عليكم ورحمة الله وبركاته.<br>. I'm ```Meshal AlMansour AlYami```, A Senior VAPT Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومنّته ورحمته ومعونته). <br>
 
 
     
