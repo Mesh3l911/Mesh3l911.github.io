@@ -1,20 +1,28 @@
 <p class="aligncenter">
     <img src="/pics/LOGO.png" alt="centered image" />
 </p>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html><br><br>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
 
-<b><h3>قال الله تعالى: {الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ} </h3></b></b>
-<b>السلام عليكم ورحمة الله وبركاته Hello There ^_^ .<br. I'm ```Meshal AlMansour AlYami```, A VAPT Senior Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
+
+<b>السلام عليكم ورحمة الله وبركاته.<br>. I'm ```Meshal AlMansour AlYami```, A VAPT Senior Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
 
 
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
 <ul><li><b>VAPT Senior Consultant @ Cyberani since - (Oct, 2024)</b></li> <br>
+      <ul>
+       <li></li>
+       <li></li>
+           <li></li>
+          <li></li>
+           <li></li>
+     </ul>
  </ul>
      
-<ul><li><b>VAPT Consultant @ Cyberani since - (Oct, 2023 - Oct, 2024)</b></li> <br>
+<ul><li><b>VAPT Consultant @ Cyberani - (Oct, 2023 - Oct, 2024)</b></li> <br>
       <ul>
        <li>Building new services such as Source Code Review and Red Teaming services.</li>
        <li>Implementing penetration testing and vulnerability assessment automation tools and processes.</li>
@@ -79,47 +87,60 @@ ETS TOEFL (Score: 71)</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">CVEs</p></b></body></html>
 
-<ul><li><b>CVE-2026-112361:</b></li> <br>
+<ul><li><b>CVE-2026-112361 (6.3 MEDIUM):</b></li> <br>
 Content-Type Override and API Authorization Bypass <br>
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-112361">CVE-2021-3138</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-112361">CVE-2026-112361</a></ul>
 
-<ul><li><b>CVE-2023-4059:</b></li> <br>
-The function wppb_create_form_pages that’s being hooked to the
-admin_init action is accessible to un-authenticated end-users due to the lack
-of proper authorization checks which allow threat actors to create/publish
-[Register/Edit Proﬁle/Log in]<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4059">CVE-2023-4059</a></ul>
-<ul><li><b>CVE-2021-3138:</b></li> <br>
- Discourse 2.7.0 - Rate limit Bypass which leads to 2FA Bypass <br>
+<ul><li><b>CVE-2023-4059 (4.3 MEDIUM):</b></li> <br>
+The Profile Builder WordPress plugin before 3.9.8 lacks authorisation and CSRF in its page creation function which allows unauthenticated users to create the register, log-in and edit-profile pages from the plugin on the blog
+<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4059">CVE-2023-4059</a></ul>
+<ul><li><b>CVE-2021-3138 (7.5 HIGH):</b></li> <br>
+In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2FA requirement for certain forms.<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3138/">CVE-2021-3138</a></ul>
-<ul><li><b>CVE-2021-31760:</b></li> <br>
-Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to get a Remote Command Execution (RCE) through the Webmin's running process feature<br>
+<ul><li><b>CVE-2021-31760 (8.8 HIGH):</b></li> <br>
+Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31760/">CVE-2021-31760</a></ul>  
-<ul><li><b>CVE-2021-31761:</b></li> <br>
-Webmin 1.973 - Exploiting a Reflected Cross-Site Scripting (XSS) attack to get a Remote Command Execution (RCE) through the Webmin's running process feature<br>
+<ul><li><b>CVE-2021-31761 (9.6 CRITICAL):</b></li> <br>
+Webmin 1.973 is affected by reflected Cross Site Scripting (XSS) to achieve Remote Command Execution (RCE) through Webmin's running process feature.<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31761/">CVE-2021-31761</a></ul>
-<ul><li><b>CVE-2021-31762:</b></li> <br>
-Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a privileged user through the Webmin's add users feature then getting a reverse shell through (RCE) the Webmin's running process feature <br>
+<ul><li><b>CVE-2021-31762 (8.8 HIGH):</b></li> <br>
+Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature (RCE).
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31762/">CVE-2021-31762</a></ul>
 
-<ul><li><b>CVE-2021-32156:</b></li> <br>
+<ul><li><b>CVE-2021-32156 (8.8 HIGH):</b></li> <br>
+A cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32156">CVE-2021-32156</a></ul>
     
-<ul><li><b>CVE-2021-32157:</b></li> <br>    
+<ul><li><b>CVE-2021-32157 (8.8 HIGH):</b></li> <br>
+Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature (RCE).
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32157">CVE-2021-32157</a></ul>
     
-<ul><li><b>CVE-2021-32158:</b></li><br>     
+<ul><li><b>CVE-2021-32158 (6.1 MEDIUM):</b></li><br>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32158">CVE-2021-32158</a></ul>
     
-<ul><li><b>CVE-2021-32159:</b></li> <br>      
+<ul><li><b>CVE-2021-32159 (8.8 HIGH):</b></li> <br>
+A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32159">CVE-2021-32159</a></ul>
     
-<ul><li><b>CVE-2021-32160:</b></li> <br>      
+<ul><li><b>CVE-2021-32160 (6.1 MEDIUM):</b></li> <br>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Add Users feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32160">CVE-2021-32160</a></ul>
     
-<ul><li><b>CVE-2021-32161:</b></li> <br>     
+<ul><li><b>CVE-2021-32161 (6.1 MEDIUM):</b></li> <br>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the File Manager feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32161">CVE-2021-32161</a></ul>
     
-<ul><li><b>CVE-2021-32162:</b></li> <br>
+<ul><li><b>CVE-2021-32162 (8.8 HIGH):</b></li> <br>
+A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through the File Manager feature.
+<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
