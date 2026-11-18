@@ -4,13 +4,17 @@
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
 
-<b>Hello There ^_^ .<br>In few words. I'm ```Meshal AlMansour AlYami```, A passionate RedTeam Operator who's trying to improve his skills day by another. For me Cybersecurity isn't just about a job or even an engagement to be done. It's passion , happiness, enthusiasm, mentality and much more. Sometimes I wish my day was longer than 24hrs just to stay in front of my computer and do CyberSecurity stuff (Because simply this is the thing that I like). I believe that (The sky isn't the limit for me. NOTHING IS). Scroll down to figure out some of my achievements that I've done within about 3 years of experience.<br>
+<b><h3>قال الله تعالى: {الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ} </h3></b></b>
+<b>السلام عليكم ورحمة الله وبركاته Hello There ^_^ .<br. I'm ```Meshal AlMansour AlYami```, A VAPT Senior Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
 
 
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>VAPT Consultant @ Cyberani since - (Oct, 2023)</b></li> <br>
+<ul><li><b>VAPT Senior Consultant @ Cyberani since - (Oct, 2024)</b></li> <br>
+ </ul>
+     
+<ul><li><b>VAPT Consultant @ Cyberani since - (Oct, 2023 - Oct, 2024)</b></li> <br>
       <ul>
        <li>Building new services such as Source Code Review and Red Teaming services.</li>
        <li>Implementing penetration testing and vulnerability assessment automation tools and processes.</li>
@@ -49,8 +53,8 @@
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
     
-<ul><li><b>Offensive Security Web Expert (OSWE)</b></li> <br>
-Offensive Security</ul>
+<ul><li><b>GIAC Cloud Penetration Tester (GCPN) </b></li> <br>
+SANS Institute</ul>
 
 <ul><li><b>GIAC Exploit Researcher and Advanced Penetration Tester (GXPN) </b></li> <br>
 SANS Institute</ul>
@@ -58,6 +62,9 @@ SANS Institute</ul>
 <ul><li><b>Exploit Researcher and Advanced Penetration
 Tester (GXPN CTF Coin - 1st place)</b></li> <br>
 SANS Institute</ul>
+
+<ul><li><b>Offensive Security Web Expert (OSWE)</b></li> <br>
+Offensive Security</ul>
     
 <ul><li><b>Web Application Penetration Testing eXtreme (eWPTXv2)</b></li> <br>
 eLearnSecurity</ul>
@@ -72,6 +79,9 @@ ETS TOEFL (Score: 71)</ul>
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">CVEs</p></b></body></html>
 
+<ul><li><b>CVE-2026-112361:</b></li> <br>
+Content-Type Override and API Authorization Bypass <br>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-112361">CVE-2021-3138</a></ul>
 
 <ul><li><b>CVE-2023-4059:</b></li> <br>
 The function wppb_create_form_pages that’s being hooked to the
@@ -88,7 +98,7 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to get a Re
 Webmin 1.973 - Exploiting a Reflected Cross-Site Scripting (XSS) attack to get a Remote Command Execution (RCE) through the Webmin's running process feature<br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31761/">CVE-2021-31761</a></ul>
 <ul><li><b>CVE-2021-31762:</b></li> <br>
-Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a privileged user through the Webmin's add users feature then getting a reverse shell through the Webmin's running process feature <br>
+Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a privileged user through the Webmin's add users feature then getting a reverse shell through (RCE) the Webmin's running process feature <br>
 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31762/">CVE-2021-31762</a></ul>
 
 <ul><li><b>CVE-2021-32156:</b></li> <br>
@@ -115,8 +125,8 @@ Webmin 1.973 - Exploiting a Cross-site request forgery (CSRF) attack to create a
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
 <ul><li><b>Apple Hall Of Fame 2x times (Feb, 2023) & (Feb,2021):</b></li> <br>
-<a href="https://support.apple.com/en-us/HT201536/">Apple web server notifications (Feb, 2023)</a><br>
-<a href="https://support.apple.com/en-us/HT213636/">Apple web server notifications (Feb,2021)</a></ul>
+<a href="https://support.apple.com/en-us/122162">Apple web server notifications (Feb, 2023)</a><br>
+<a href="https://support.apple.com/en-us/102812">Apple web server notifications (Feb,2021)</a></ul>
 <ul><li><b>Webmin Hall Of Fame:</b></li> <br>
 <a href="https://webmin.com/security.html">Webmin's security alerts</a></ul>
 <ul><li><b>GE Healthcare Hall Of Fame:</b></li> <br>
