@@ -1,18 +1,21 @@
 <p class="aligncenter">
     <img src="/pics/LOGO.png" alt="centered image" />
 </p>
-<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html><br><br>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html><br>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">بفضل الله تعالى ومنّته ورحمته, أحمده جلّ ثناؤه حمدًا يفوق حمد الحامدين</p></body></html><br><br>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">دعواتكم لوالدي ولي ولأهلي ولجميع من لهم حق علي وللجميع</p></body></html><br><br>
+
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
 
 
-<b>السلام عليكم ورحمة الله وبركاته.<br>. I'm ```Meshal AlMansour AlYami```, A VAPT Senior Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
+<b>السلام عليكم ورحمة الله وبركاته.<br>. I'm ```Meshal AlMansour AlYami```, A Senior VAPT Consultant. I believe that (The sky isn't the limit for me. NOTHING IS بفضل الله تعالى ومعونته). <br>
 
 
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>VAPT Senior Consultant @ Cyberani since - (Oct, 2024)</b></li> <br>
+<ul><li><b>Senior VAPT Consultant @ Cyberani since - (Oct, 2024)</b></li> <br>
       <ul>
        <li></li>
        <li></li>
@@ -93,55 +96,55 @@ Content-Type Override and API Authorization Bypass <br>
 
 <ul><li><b>CVE-2023-4059 (4.3 MEDIUM):</b></li> <br>
 The Profile Builder WordPress plugin before 3.9.8 lacks authorisation and CSRF in its page creation function which allows unauthenticated users to create the register, log-in and edit-profile pages from the plugin on the blog
-<br><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4059">CVE-2023-4059</a></ul>
+<br><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-4059">CVE-2023-4059</a></ul>
 <ul><li><b>CVE-2021-3138 (7.5 HIGH):</b></li> <br>
 In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2FA requirement for certain forms.<br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3138/">CVE-2021-3138</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-3138">CVE-2021-3138</a></ul>
 <ul><li><b>CVE-2021-31760 (8.8 HIGH):</b></li> <br>
 Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.<br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31760/">CVE-2021-31760</a></ul>  
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-31760">CVE-2021-31760</a></ul>  
 <ul><li><b>CVE-2021-31761 (9.6 CRITICAL):</b></li> <br>
 Webmin 1.973 is affected by reflected Cross Site Scripting (XSS) to achieve Remote Command Execution (RCE) through Webmin's running process feature.<br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31761/">CVE-2021-31761</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-31761">CVE-2021-31761</a></ul>
 <ul><li><b>CVE-2021-31762 (8.8 HIGH):</b></li> <br>
 Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature (RCE).
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31762/">CVE-2021-31762</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-31762">CVE-2021-31762</a></ul>
 
 <ul><li><b>CVE-2021-32156 (8.8 HIGH):</b></li> <br>
 A cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32156">CVE-2021-32156</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32156">CVE-2021-32156</a></ul>
     
 <ul><li><b>CVE-2021-32157 (8.8 HIGH):</b></li> <br>
 Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature (RCE).
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32157">CVE-2021-32157</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32157">CVE-2021-32157</a></ul>
     
 <ul><li><b>CVE-2021-32158 (6.1 MEDIUM):</b></li><br>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32158">CVE-2021-32158</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32158">CVE-2021-32158</a></ul>
     
 <ul><li><b>CVE-2021-32159 (8.8 HIGH):</b></li> <br>
 A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32159">CVE-2021-32159</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32159">CVE-2021-32159</a></ul>
     
 <ul><li><b>CVE-2021-32160 (6.1 MEDIUM):</b></li> <br>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Add Users feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32160">CVE-2021-32160</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32160">CVE-2021-32160</a></ul>
     
 <ul><li><b>CVE-2021-32161 (6.1 MEDIUM):</b></li> <br>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the File Manager feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32161">CVE-2021-32161</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32161">CVE-2021-32161</a></ul>
     
 <ul><li><b>CVE-2021-32162 (8.8 HIGH):</b></li> <br>
 A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through the File Manager feature.
 <br>
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32162">CVE-2021-32162</a></ul>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-32162">CVE-2021-32162</a></ul>
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Acknowledgments</p></b></body></html>
 
@@ -328,7 +331,6 @@ countries )</ul>
 <ul><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/meshal-almansour/"> Meshal's Linkedin account</a></ul>
 <ul><i class="fab fa-github"></i> <a href="https://github.com/mesh3l911/"> Meshal's Github account</a></ul> 
 <ul><i class="fab fa-twitter"></i> <a href="https://twitter.com/Mesh3l_911/"> Meshal's Twitter account</a></ul>
-<ul><i class="fas fa-spider"></i> <a href="https://www.exploit-db.com/?author=11089/"> Meshal's Exploit-db page</a></ul>
 <ul><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCr94hhG1rz18RwATLexmQ-g/">Meshal's YouTube channel</a></ul> 
 <ul><i class="fab fa-medium"></i> <a href="https://mesh3l-911.medium.com/"> Meshal's Medium account</a></ul>
 <br>
