@@ -3,7 +3,7 @@
 </p>
 <html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}</p></body></html>
 <html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">بفضل الله تعالى ومنّته ورحمته ومعونته, أحمده جلّ ثناؤه حمدًا يفوق حمد الحامدين</p></body></html>
-<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">دعواتكم لوالدي ولي ولأهلي ولجميع من لهم حق علي وللجميع</p></body></html><br><br>
+<html><body><p style="color:#A52A2A;font-size:25px;font-weight:bold;text-align:center;">دعواتكم لوالدي ولي ولأهلي ولجميع من لهم حق علي وللجميع. اللهم صلّ على محمد وعلى آل محمد كما صلّيت على إبراهيم وعلى آل إبراهيم إنك حميدٌ مجيد, وبارك وسلّم.</p></body></html><br><br>
 
 
 > <html><body><b><p style="color:#A52A2A;font-size:25px">Who Am I?</p></b></body></html>
@@ -15,15 +15,19 @@
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">WORK EXPERIENCE:</p></b></body></html>
 
-<ul><li><b>Senior VAPT Consultant @ Cyberani since - (Oct, 2024)</b></li> <br>
-      <ul>
-       <li></li>
-       <li></li>
-           <li></li>
-          <li></li>
-           <li></li>
-     </ul>
- </ul>
+<ul>
+  <li><b>Senior VAPT Consultant @ Cyberani (Oct, 2024 - Present)</b></li>
+  <br>
+  <ul>
+    <li>Leading and conducting Web Application and Network Penetration Testing, Source Code Review, Vulnerability Assessment, including vulnerability validation</li>
+    <li>Conducting security research, discovering vulnerabilities, developing proofs of concept (PoCs), and coordinating responsible vulnerability disclosure.</li>
+    <li>Analyzing, documenting, presenting, and discussing security findings, their root causes, potential impact, and remediation recommendations with clients and relevant stakeholders.</li>
+    <li>Developing and improving some security assessment methodologies and service delivery processes.</li>
+    <li>Evaluating security technologies, tools, and solutions to assess their potential to enhance the team's service delivery.</li>
+    <li>Providing technical consultation to clients and technical guidance and training to colleagues and trainees if needed.</li>
+    <li>Conducting technical interviews and evaluating candidates' technical competencies to support the team's recruitment activities.</li>
+  </ul>
+</ul>
      
 <ul><li><b>VAPT Consultant @ Cyberani - (Oct, 2023 - Oct, 2024)</b></li> <br>
       <ul>
@@ -57,10 +61,6 @@
      <li>PT Training for MCIT cybersecurity department trainees</li>
      </ul> </ul>
 
- <ul><li><b>Penetration Tester @ Synack since (Synak RedTeam Member) - (Part Time)</b></li> <br>
-  <ul>
-       <li>Conducting web applications white/black box tests</li>
-     </ul> </ul>
     
 > <html><body><b><p style="color:#A52A2A;font-size:25px">COURSES & CERTIFICATIONS:</p></b></body></html>
     
